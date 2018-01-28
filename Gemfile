@@ -11,6 +11,8 @@ source "https://rubygems.org"
 ruby '2.4.2'
 gem "jekyll", "~> 3.7.2"
 gem 'rake'
+gem 'bundler'
+gem 'rack-jekyll'
 gem 'puma'
 gem "jekyll-gist" ,"~> 1.4"
 gem "jekyll-theme-hydeout", "3.5.3"
