@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Octave"
+date: 2017-11-12 12:12:11 +0700
+categories: food
+
+---
+
+Install octave
+
+{% highlight ruby %}
+sudo def install octave
+{% endhighlight %}
+
+buat file ~/.octaverc dengan isi sebagai berikut
+
+{%highlight bash%}
+graphics_toolkit ("gnuplot")
+{%endhighlight%}
+
+Buat para Gunners yang pengin ngambis komdig ini link-nya
+
+[KomdigCantik]({{ "https://github.com/faoziaziz/KomdigCantik" | absolute_url }})
