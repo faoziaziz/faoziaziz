@@ -4,7 +4,16 @@ title: "Galau Ala Derrida"
 author: Aziz Amerul Faozi
 date: 2017-11-26 11:03:46 +0700
 comments: true
-categories: [Galau]
+categories: 
+- Filsafat
+- Surat
+tags:
+- Sartre
+- Heidegger
+- Nietzsche
+- Deleuze
+- Derrida
+- Modus
 ---
 *"Galau adalah salah satu ciri seorang eksistensialis."*, begitulah kata seorang filsuf kenamaan ITB, Choirul Muttaqin. Namun menurut Heidegger, galau memang memiliki dua persepsi kecemasan (Angst) dan ketakutan (Furch). Semuanya tergantung bagaimana si penggalau menyikapi kegalauannya, apakah dia mampu mengobjektifikasi permasalahan atau justru termakan oleh kegalauan dalam keadaan reflektif. Dekadensi atau Ubermensh mungkin ditentukan oleh refleksi dari sang penggalau ini, walau saya masih belum paham betul apakah itu memang benar maksud dari sang Kumis Tebal (Nietzsche).
 

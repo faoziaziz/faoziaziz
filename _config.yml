@@ -34,6 +34,8 @@ sidebar_home_link:  true
                                 # to enable a separate blog link.
 github:
   repo:             https://github.com/faoziaziz
+disqus:
+  shortname: faoziaziz
 
 gems: ['kramdown', 'jekyll-gist', 'jekyll-paginate']
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
