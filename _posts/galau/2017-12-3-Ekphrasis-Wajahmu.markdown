@@ -4,7 +4,10 @@ title: "Ekphrasis Wajahmu"
 date: 2017-12-3 11:03:46 +0700
 comments: true
 author: Aziz Amerul Faozi
-categories: [galau]
+categories: 
+- Filsafat
+tags:
+- Modus
 ---
 Mungkin benar apa yang dikatakan Fredrich Nietzsche dalam The Genealogy of Morals, bahwa kehidupan memang dalam kondisi rusak, penuh dengan keirian, kedengkian, manipulasi dan lainnya. Cukup susah untuk mencari penawar dari penyakit dunia itu. Namun setelah aku melihat wajahmu aku menyadari bahwa kedamaian, keindahan, dan keteraturan memang bukan sekedar ilusi utopis. Iya mungkin tidak semua orang menyadari hal itu namun didalam dunia yang penuh dengan kedustaan ini aku menyadari ada bagian jujur yang indah, yaitu wajahmu. 
 

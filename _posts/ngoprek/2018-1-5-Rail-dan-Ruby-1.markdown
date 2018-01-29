@@ -3,7 +3,10 @@ layout: post
 title: "Rails dan Ruby 1"
 date: 2018-1-5 16:36:32 +0700
 comments: true
-categories: [TechneAndPraxis]
+categories: 
+- TechneAndPraxis
+tags:
+- Heroku
 ---
 
 Membangun sebuah webserver memang cukup menarik untuk para hobiis di Information Teknologi. Php, html, maupun MySQL biasa menjadi sebuah solusi untuk mengatasi permasalahan ini. Menggunakan XAMPP untuk para pengguna windows atau menggunakan LAMPP untuk para pengguna linux bisa langsung mengatasi permasalahan development. Tapi untuk yang bosan menggunakan XAMPP, kita bisa menggunakan Apache Tomcat, menggunakan glashfish server dan java script serta menambahakan java servlet page bisa menjadi lebih menarik, ditambah jika kita jago dalam mengoding JavaFX. Tapi ada solusi imut yang bisa kita lakukan untuk mengatasi hasrat kita mengoding, bermula dari modusin cewe yang ada kaitannya dengan nama developmentnya, ruby dan rails juga cukup menarik, mengingat heroku juga mensupport penggunaan rails dan ruby. Postgresql yang tersedia gratis juga bisa menjadi salah satu keunggulan dari penggunaan heroku ini.

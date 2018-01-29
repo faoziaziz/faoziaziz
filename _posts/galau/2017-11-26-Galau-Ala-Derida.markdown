@@ -6,7 +6,6 @@ date: 2017-11-26 11:03:46 +0700
 comments: true
 categories: 
 - Filsafat
-- Surat
 tags:
 - Sartre
 - Heidegger

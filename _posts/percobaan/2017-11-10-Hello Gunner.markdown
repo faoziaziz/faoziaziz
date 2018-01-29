@@ -2,7 +2,8 @@
 layout: post
 title:  "Hello Fans"
 date:   2017-11-10 20:43:15 +0700
-categories: jekyll update
+categories: 
+- TechneAndPraxis
 ---
 Hello My Fans
 

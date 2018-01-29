@@ -3,7 +3,8 @@ layout: post
 title: "Masa gak boleh dicoba"
 date: 2017-11-10 20:09:46 +0700
 comments: true
-categories: [Coba]
+categories: 
+- TechneAndPraxis
 ---
 $$
 \begin{align*}

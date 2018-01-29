@@ -4,7 +4,10 @@ title: "Radio Pintar dan Spectrum Baper"
 date: 2018-1-20 02:34:32 +0700
 author: Aziz Amerul Faozi
 comments: true
-categories: [TechneAndPraxis]
+categories: 
+- TechneAndPraxis
+tags:
+- TA
 ---
 
 Halo gays, masih bersama saya dalam acara membuat SDR-Modus (Modem for Us) di sesi TA cantik. Kali ini kita akan mencoba membahas tentang apasih kelanjutan dari TA-Cantik yang akan dibuat ini?. Iya sering kita mendengar kata SDR, Software Defined Radio, sebenarnya rangkaian dari sdr cukup simple, SDR cukup bisa memilih teknik modulasi, teknik filtering, ataupun tunning DDS. Perangkat untuk membuat sebuah SDR juga terbilang cukup murah, paling cuma menggunakan arm-cortex, fpga, dan rangkaian auxilarry seperti antena, capasitor, induktor, IC memory atau kabel untuk komunikasi dengan komputer yang akan nanti kita gunakan untuk memprogram. Iyah, walaupun memprogram itu cukup ribet karena pin sangat kecil dan butuh socket yang dipasaran juga cukup susah dicari, namun kita akan coba analisa dahulu kegunaan dari SDR ini.

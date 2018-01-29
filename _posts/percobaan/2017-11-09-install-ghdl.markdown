@@ -4,6 +4,7 @@ title: "Install Ghdl"
 date: 2017-11-09 21:05:47 +0700
 comments: true
 categories: 
+- TechneAndPraxis
 ---
 
 Kacau lah install ghdl ajah dulu buat bisa progress ta. Senggaknya biar keliatan progress.

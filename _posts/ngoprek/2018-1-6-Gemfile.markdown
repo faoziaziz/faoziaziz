@@ -3,7 +3,10 @@ layout: post
 title: "Gemfile"
 date: 2018-1-6 04:03:32 +0700
 comments: true
-categories: [TechneAndPraxis]
+categories: 
+- TechneAndPraxis
+tags:
+- Heroku
 ---
 
 *"Jadi apa itu gemfile?"*, buat anda yang baru dalam dunia per-ruby-an, Gemfile menjadi sering kita jumpai. Sebenarnya jika anda seorang developer android, Gemfile mirip dengan gradle.build yang ada dalam file android. Gemfile bekerja sebagai file untuk list dependency dari sesuatu yang akan anda development seperti jika anda menggunakan postgres maka akan muncul 

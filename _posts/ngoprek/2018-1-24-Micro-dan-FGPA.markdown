@@ -4,7 +4,10 @@ title: "Micro x dan FPGA"
 date: 2018-1-24 20:23:00 +0700
 author: Aziz Amerul Faozi
 comments: true
-categories: [TechneAndPraxis]
+categories: 
+- TechneAndPraxis
+tags:
+- TA
 ---
 Untuk komunikasi antara SPI dan Spartan FPGA
 

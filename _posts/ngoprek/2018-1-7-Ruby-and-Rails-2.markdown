@@ -3,7 +3,10 @@ layout: post
 title: "Ruby and Rails jilid 2"
 date: 2018-1-7 01:41:32 +0700
 comments: true
-categories: [TechneAndPraxis]
+categories: 
+- TechneAndPraxis
+tags:
+- Heroku
 ---
 Oke guys masih bersama saya dalam acara bermain dengan ruby and rails episode ke-2. Oke para hobiis heroku kali ini kita akan membahas tentang bagaimana sih struktur direktori dari rails, dan gimana sih kita akan mendevelopment sebuah server dari kode-kode ruby yang akan kita buat nanti. 
 

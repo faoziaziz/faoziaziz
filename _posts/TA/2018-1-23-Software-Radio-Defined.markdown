@@ -5,7 +5,8 @@ author: Aziz Amerul Faozi
 date: 2018-1-23 17:40:46 +0700
 comments: true
 excerpt_separator:  <!--more-->
-categories: [Galau]
+categories: 
+- TechneAndPraxis
 ---
 
 Seperti yang dikatakan oleh Guilermo Macaroni (Akh peduli setan tulisanya salah, Guilermo Macaroni adalah nama yang saya berikan untuk sebuah kopi espresso dengan jeruk nipis diatas nya dan dimakan bersama makaroni), bahwa jangan pernah meremehkan wireles communication. Saya masih bingung dengan latar belakan TA kali ini, iyah jelas bahwa membuat SDR sudah pernah dikerjakan oleh orang lain. Namun kali ini saya mencoba untuk menulis draft untuk TA kali ini.

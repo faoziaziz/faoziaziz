@@ -3,7 +3,8 @@ layout: post
 title: "Nirkable PR 1"
 date: 2017-11-12 16:09:46 +0700
 comments: true
-categories: [Coba]
+categories: 
+- TechneAndPraxis
 excerpt_separator:  <!--more-->
 ---
 Dari [Soal Nirkable]({{ "https://github.com/faoziaziz/NirkableCantik/blob/master/Soal/SoalIndividu.pdf" | absolute_url }}),

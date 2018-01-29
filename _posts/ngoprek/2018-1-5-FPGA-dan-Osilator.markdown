@@ -3,7 +3,10 @@ layout: post
 title: "FPGA dan Osilator"
 date: 2018-1-5 22:56:32 +0700
 comments: true
-categories: [TechneAndPraxis]
+categories: 
+- TechneAndPraxis
+tags:
+- TA
 ---
 
 ## Apakah osilator mempengaruhi kecepatan prosesing dari sebuah fpga?

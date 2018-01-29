@@ -4,7 +4,10 @@ title: "Tunning RF UI"
 date: 2018-1-22 01:52:00 +0700
 author: Aziz Amerul Faozi
 comments: true
-categories: [TechneAndPraxis]
+categories: 
+- TechneAndPraxis
+tags:
+- TA
 ---
 Oke gus sembari mengerjakan tugas akhir di bagian user interface sekarang kita mencoba untuk membuat slider untuk tunning RF kita kali ini.
 

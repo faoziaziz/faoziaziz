@@ -3,7 +3,10 @@ layout: post
 title: "Masalah npm dan Proxy"
 date: 2018-1-5 23:54:32 +0700
 comments: true
-categories: [TechneAndPraxis]
+categories: 
+- TechneAndPraxis
+tags:
+- Heroku
 ---
 
 ***npm*** atau node package manager merupakan salah satu hal yang cukup menarik untuk para developer heroku. Mengingat node.js disediakan oleh heroku untuk mendevelop aplikasi disana untuk para pengoprek heroku yang mengalami masalah dengan proxy itb semoga ini bisa menjadi solusi.

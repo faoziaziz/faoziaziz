@@ -4,7 +4,10 @@ title: "Aux Miroir"
 date: 2017-12-3 11:03:46 +0700
 comments: true
 author: Aziz Amerul Faozi
-categories: [galau]
+categories: 
+- Filsafat
+tags:
+- Modus
 ---
 Aku tidak mengerti dengan dunia ini. Mengapa orang lebih suka menebar kebencian ketimbang kebahagiaan? Aku pun bercermin, sambil mengoreksi diri dan bertanya "Mungkin saja perspektif saya salah tentang dunia ini?", walaupn Rumi pernah berkata bahwa jiwa manusia seperti cermin yang akan memantulkan setiap kesalahan dari apa yang kita lihat dari dalam diri orang lain. Akh, kau tau jika aku mulai lelah dengan penyakit dunia ini, beragam muslihat dan kebohongan yang muncul dari jiwa yang sakit penuh dengan iri dan dengki, sudah jelas membuatku bosan. 
 

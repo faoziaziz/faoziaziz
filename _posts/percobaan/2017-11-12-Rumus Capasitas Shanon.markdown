@@ -3,7 +3,8 @@ layout: post
 title: "Kapasitas Shanon"
 date: 2017-11-12 14:09:46 +0700
 comments: true
-categories: [Coba]
+categories: 
+- TechneAndPraxis
 ---
 Beginilah rumus kapasitas shanon,
 $$

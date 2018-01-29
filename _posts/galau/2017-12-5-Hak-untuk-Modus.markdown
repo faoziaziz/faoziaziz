@@ -4,7 +4,10 @@ title: "Hak untuk Modus"
 date: 2017-12-5 11:03:46 +0700
 comments: true
 author: Aziz Amerul Faozi
-categories: [galau]
+categories: 
+- Filsafat
+tags:
+- Modus
 ---
 Apakah engkau pernah mendengar kisah Soren Kierkegaard dan Regina Olsen. Si pria koplak (Soren Kierkegaard, yang cacat itu) mencintai seorang anak bangsawan cantik. Bikin tulisan galau, bahkan mungkin sampe lupa kalau Tugas Akhirnya belum dikerjakan, akh Kierkegaard, tapi untungnya tulisan-tulisannya bisa membuat filsafat berubah menjadi postmodern. Nietzsche, Sartre bahkan naskah peraih nobel seperti Sein und Zeit karya Heidegger juga terpengaruh pada perubahan pemikiran Soren Kierkegaard. Apakah engkau masih berfikir bahwa galau itu sia-sia, modus-pun bisa membuat seorang mendapat 200 milyar dari hadiah nobel. 
 

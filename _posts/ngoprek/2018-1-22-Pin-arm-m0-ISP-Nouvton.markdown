@@ -4,7 +4,10 @@ title: "Pin arm-m0 Nouvton"
 date: 2018-1-22 18:37:00 +0700
 author: Aziz Amerul Faozi
 comments: true
-categories: [TechneAndPraxis]
+categories: 
+- TechneAndPraxis
+tags:
+- TA
 ---
 
 Oke Guys sekarang kita mencoba untuk membuat sebuah downloader untuk arm-cortex-M0 sebagai controller dari SDR yang akan kita buat beberapa pin disini akan menjadi notes, untuk percobaan yang nanti akan kita download ke arm-cortex Nouton yang sudah diintegrasi dengan beragam tambahan seperti osilator dan lainnya.

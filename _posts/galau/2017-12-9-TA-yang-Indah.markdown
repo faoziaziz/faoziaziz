@@ -4,7 +4,10 @@ title: "TA yang Indah"
 date: 2017-12-9 11:03:46 +0700
 comments: true
 author: Aziz Amerul Faozi
-categories: [galau]
+categories: 
+- Filsafat
+tags:
+- Modus
 ---
 > "Arts in deeds not in words"
 
