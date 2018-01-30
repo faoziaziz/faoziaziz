@@ -18,3 +18,5 @@ Oke Genotype dalam kasus ini merupakan sebuah sebuah logic gate yang nanti kita 
 
 Selection, Crossover, maupun mutasi yang nanti kita gunakan sebagai analisa optimisasi SDR ini masih saya coba identifikasi lagi tapi yang jelas path dari FPGA ini. 
 
+Kenapa Genetik Algortithm dipakai di sini. Efektifitas dan efisiensi sebenarnya yang diincar dari algoritma ini, walaupun sebenarnya GA dipakai untuk menyelesaikan permasalahan LCS (Longest Common Subsquence) dalam dinamic programing. Tapi semoga beberapa algoritma ini bisa dipakai untuk mempercantik SDR dibagian arsitekturnya.
+
