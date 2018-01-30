@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SDR Cantik"
+title: "Genetik SDR"
 author: Aziz Amerul Faozi
 date: 2018-1-30 16:58:16 +0700
 comments: true
