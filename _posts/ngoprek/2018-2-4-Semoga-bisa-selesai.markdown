@@ -17,7 +17,7 @@ Oke, dengan berbekal 0 pengalaman di dunia FPGA, saya beranikan diri untuk bisa 
 
 Biar terlihat keren saya mencoba memasukkan genetika algoritma untuk menyelesaikan pembuatan SDR ini, walaupun sebenarnya belum saya masukan untuk menganalisa filter, modulator, dan dds, karena saya masih bodoh dalam genetika algoritma. 
 
-Untuk membuat filter, modulator dan DDS, Cordic (Coordinate rotation digital Computer) memang menjadi genotype utama dari pembuatan ini. Walaupun terlihat simple dari persamaan untuk menyelesaikannya dalam code VHDL dan mengimplementasikannya dalam Field Programable Gate Array semoga seminggu lagi semua masalah dalam vhdl bisa terselesaikan dan tinggal menguploadnya kedalam hardware yang disiapkan
+Untuk membuat filter, modulator dan DDS, Cordic (Coordinate rotation digital Computer) memang menjadi genotype utama dari pembuatan ini. Walaupun terlihat simple dari persamaan, tapi kok susah untuk menyelesaikannya dalam code VHDL dan mengimplementasikannya dalam Field Programable Gate Array semoga seminggu lagi semua masalah dalam vhdl bisa terselesaikan dan tinggal menguploadnya kedalam hardware yang disiapkan wkwkwk.
 
 # Catatan
 
