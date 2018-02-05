@@ -25,9 +25,12 @@ setelah berhasil di download anda lalu mengekstraknya. Kalau mau terlihat keren 
 ```bash
 unzip paho.mqtt.java.zip
 ```
-setelah itu masuk kedirektorinya dan menginstall dengan maven
+setelah itu masuk kedirektorinya dan menginstall dengan maven jangan lupa edit bagian pom.xml nya dari kepler menjadi oxygen.
 
 ```
 cd paho.mqtt.java
-maven package -Dskiptests
+mvn package -Dskiptests
 ```
+
+## Kopi 
+Kopi tubruk mengingatkan saya pada masa lalu yang sok iye pada pengetahuan kopi. Tapi memang begitulah kopi rasanya seperti itu, seperti Jokowi yang memang mirip dengan kopi tubruk. Semakin lama maka kopinya akan semakin robustam tapi memang saya memesan kopi lampung. Padahal dulu pas aku mesen kopi lampung rasanya kayak rasa coklat, wkwkwk mungkin beda tempat beda rasa. Kopi tubruk memang kopi yang simple dan memang hanya butuh roasting dan digiling lalu diseduh dengan air panas. 

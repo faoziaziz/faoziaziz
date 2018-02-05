@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            UNO
-tagline:          'Catatan Alien'
-description:      'Unidentified Notes Object'
+title:            CAM
+tagline:          'Dog's notes'
+description:      'Catatan Anjing Munafik'
 url:              https://labseni.herokuapp.com/
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
