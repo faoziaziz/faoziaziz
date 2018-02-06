@@ -5,7 +5,7 @@ date: 2018-2-5 01:22:00 +0700
 author: Aziz Amerul Faozi
 comments: true
 categories: 
-- Kacang Polong
+- Kacang-Polong
 excerpt_separator:  <!--more-->
 ---
 

@@ -11,7 +11,7 @@
 
   <title>
     
-      UNO &middot; Catatan Alien
+      CBGL &middot; Hmmm
     
   </title>
 
@@ -42,10 +42,10 @@
     <h1 class="site-title">
       <a href="/">
         
-        UNO
+        CBGL
       </a>
     </h1>
-    <p class="lead">Unidentified Notes Object</p>
+    <p class="lead">Catatan biar gak lupa</p>
   </header>
   <nav id="sidebar-nav-links">
   
@@ -136,7 +136,7 @@
   
     
       <a class="category-link "
-          href="/category/Kacang-Polong.html">Kacang Polong</a>
+          href="/category/Kacang-Polong.html">Kacang-Polong</a>
     
   
 
@@ -309,13 +309,39 @@ setelah berhasil di download anda lalu mengekstraknya. Kalau mau terlihat keren 
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>unzip paho.mqtt.java.zip
 </code></pre></div></div>
-<p>setelah itu masuk kedirektorinya dan menginstall dengan maven</p>
+<p>setelah itu masuk kedirektorinya dan menginstall dengan maven jangan lupa edit bagian pom.xml nya dari kepler menjadi oxygen.</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd paho.mqtt.java
-maven package -Dskiptests
+mvn package -Dskiptests
 </code></pre></div></div>
+
 <h2 id="kopi">Kopi</h2>
 <p>Kopi tubruk mengingatkan saya pada masa lalu yang sok iye pada pengetahuan kopi. Tapi memang begitulah kopi rasanya seperti itu, seperti Jokowi yang memang mirip dengan kopi tubruk. Semakin lama maka kopinya akan semakin robustam tapi memang saya memesan kopi lampung. Padahal dulu pas aku mesen kopi lampung rasanya kayak rasa coklat, wkwkwk mungkin beda tempat beda rasa. Kopi tubruk memang kopi yang simple dan memang hanya butuh roasting dan digiling lalu diseduh dengan air panas.</p>
+
+<h2 id="maven-dengan-proxy">Maven dengan Proxy</h2>
+
+<p>Namun setelah perjalanan panjang untuk membeli pulsa dan mencari wifi gratisan ternyata didapat juga methode menggunakan maven dengan proxy. Cukum buat file di</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~/.m2/settings.xml
+</code></pre></div></div>
+<p>dan menambahkan beberapa kode xml berikut ini</p>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nt">&lt;settings&gt;</span>
+  <span class="nt">&lt;proxies&gt;</span>
+     <span class="nt">&lt;proxy&gt;</span>
+	<span class="nt">&lt;id&gt;</span>genproxy<span class="nt">&lt;/id&gt;</span>
+        <span class="nt">&lt;active&gt;</span>true<span class="nt">&lt;/active&gt;</span>
+        <span class="nt">&lt;protocol&gt;</span>http<span class="nt">&lt;/protocol&gt;</span>
+        <span class="nt">&lt;host&gt;</span>cache.itb.ac.id<span class="nt">&lt;/host&gt;</span>
+        <span class="nt">&lt;port&gt;</span>8080<span class="nt">&lt;/port&gt;</span>
+        <span class="nt">&lt;username&gt;</span>usernameAI3<span class="nt">&lt;/username&gt;</span>
+        <span class="nt">&lt;password&gt;</span>PasswordAI3<span class="nt">&lt;/password&gt;</span>
+     <span class="nt">&lt;/proxy&gt;</span>
+  <span class="nt">&lt;/proxies&gt;</span>
+<span class="nt">&lt;/settings&gt;</span>
+
+</code></pre></div></div>
 
     
 
@@ -330,7 +356,7 @@ maven package -Dskiptests
   
   <article class="post-body">
     <h2 class="post-title">
-      <a href="/kacang%20polong/2018/02/05/Selamat-Datang.html">
+      <a href="/kacang-polong/2018/02/05/Selamat-Datang.html">
         Selamat Datang di Wonosobo
       </a>
     </h2>
@@ -346,7 +372,7 @@ maven package -Dskiptests
 
       
         <a href="/category/Kacang-Polong.html">
-          Kacang Polong
+          Kacang-Polong
         </a>
       
     

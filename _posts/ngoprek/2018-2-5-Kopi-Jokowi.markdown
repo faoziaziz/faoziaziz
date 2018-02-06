@@ -34,3 +34,30 @@ mvn package -Dskiptests
 
 ## Kopi 
 Kopi tubruk mengingatkan saya pada masa lalu yang sok iye pada pengetahuan kopi. Tapi memang begitulah kopi rasanya seperti itu, seperti Jokowi yang memang mirip dengan kopi tubruk. Semakin lama maka kopinya akan semakin robustam tapi memang saya memesan kopi lampung. Padahal dulu pas aku mesen kopi lampung rasanya kayak rasa coklat, wkwkwk mungkin beda tempat beda rasa. Kopi tubruk memang kopi yang simple dan memang hanya butuh roasting dan digiling lalu diseduh dengan air panas. 
+
+## Maven dengan Proxy 
+
+Namun setelah perjalanan panjang untuk membeli pulsa dan mencari wifi gratisan ternyata didapat juga methode menggunakan maven dengan proxy. Cukum buat file di 
+
+```bash
+~/.m2/settings.xml
+```
+dan menambahkan beberapa kode xml berikut ini
+
+```xml
+
+<settings>
+  <proxies>
+     <proxy>
+	<id>genproxy</id>
+        <active>true</active>
+        <protocol>http</protocol>
+        <host>cache.itb.ac.id</host>
+        <port>8080</port>
+        <username>usernameAI3</username>
+        <password>PasswordAI3</password>
+     </proxy>
+  </proxies>
+</settings>
+
+```
