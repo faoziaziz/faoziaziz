@@ -23,6 +23,10 @@ Ah maklum masih pemula, namun karena memang keramahan akan pesantren disana, *"B
 
 Mungkin karena tempat baru, Shadi tidak onani malam ini. Selain cuaca dingin yang menusuk di Wonosobo, adalah tindakan bodoh jika dia onani dan harus berangkat ngaji pas sebelum subuh di pesantren.
 
+Jam menunjukan pukul 15.00, seperti biasanya sebelum sholat Ashar, Shadi mengikuti halaqoh di pesantren. Kiyai utama memberikan penjelasan pada santri-santri yang sudah paling tua di pesantren itu, padahal Shadi baru masuk dia tidak masuk ke kelas anak SMP walaupun dia tingkat 2 di Universitas sebagai santri baru dia masuk ke halaqoh tetua dengan distribusi anak SMA.
 
+*"Seriuslah dalam belajar agar ketika kalian dewasa kalian tidak menyesali apa yang kalian lakukan."* 
+
+Shadi menangis tersedu-sedu hingga mata-nya merah. Teringat dimasa lalu dia tidak belajar dengan serius. Berapa dosa yang dia ingat pada guru dan orang tua sebelumnya. Dia teringat kata guru dan orang tuanya, *"Sukseslah melebihi saya."*, dalam pikiran terharu dan sedih, Shadi memiliki pandangan bahwa salah satu tugas dari generasi penerus adalah melampaui generasi sebelumnya. 
 
 
