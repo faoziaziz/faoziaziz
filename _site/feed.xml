@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-09T17:29:58+07:00</updated><id>http://localhost:4000/</id><title type="html">CBGL</title><subtitle>Catatan biar gak lupa</subtitle><author><name>Aziz Faozi</name></author><entry><title type="html">Antenna</title><link href="http://localhost:4000/kacang-polong/2018/02/09/Antenna.html" rel="alternate" type="text/html" title="Antenna" /><published>2018-02-09T17:14:00+07:00</published><updated>2018-02-09T17:14:00+07:00</updated><id>http://localhost:4000/kacang-polong/2018/02/09/Antenna</id><content type="html" xml:base="http://localhost:4000/kacang-polong/2018/02/09/Antenna.html">&lt;p&gt;Dengan berbekal nasehat dari Dosennya, Shadi melakukan perjalanan spiritual untuk menjadi engineer terbaik seantero jagad. Walau hanya pesan, &lt;em&gt;“Engineer terbaik adalah engineer yang tidak pernah melihat engineer lain lebih buruk dari dirinya.”&lt;/em&gt; dari dosennya. Dia membulatkan tekat untuk pergi ke Universitas di negara ini.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-10T00:17:20+07:00</updated><id>http://localhost:4000/</id><title type="html">CBGL</title><subtitle>Catatan biar gak lupa</subtitle><author><name>Aziz Faozi</name></author><entry><title type="html">Offline Spring</title><link href="http://localhost:4000/techneandpraxis/2018/02/09/Offline-Spring.html" rel="alternate" type="text/html" title="Offline Spring" /><published>2018-02-09T23:59:00+07:00</published><updated>2018-02-09T23:59:00+07:00</updated><id>http://localhost:4000/techneandpraxis/2018/02/09/Offline-Spring</id><content type="html" xml:base="http://localhost:4000/techneandpraxis/2018/02/09/Offline-Spring.html">&lt;p&gt;Bagi para pecinta bahasa pemrograman Java, mungkin dynamic web sudah tidak asing dengan tomcat dan servlet. Tapi kali ini kita akan mencoba untuk mengopreknya menggunakan CLI (Command Line Interface), karena komputer saya terlalu berat untuk memproses Eclipse.&lt;/p&gt;
+
+&lt;p&gt;Sayangnya dengan berbagai cara saya tidak bisa menggunakan settingan proxy untuk spring, walaupun maven masih bisa digunakan dengan mengedit &lt;a href=&quot;&quot;&gt;file m2/settings.xml&lt;/a&gt; tapi saya membutuhkan kuota internet untuk bisa menjalankan perintah&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;spring init &lt;span class=&quot;nt&quot;&gt;-dependencies&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;web faoziaziz
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;setelah itu jangan lupa rubah dalam mode offline supaya kita tidak perlu download lagi untuk me-run kode yang sudah kita buat dengan perintah&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mvn &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;install 
+&lt;/span&gt;mvn dependency:go-offline
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;jangan lupa juga membuat Procfile dengan isi berikut agar nanti pas deploy pake heroku tidak susah.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;web: java &lt;span class=&quot;nt&quot;&gt;-jar&lt;/span&gt; target/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jar
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;lalu buat repository git perintah berikut&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git init
+git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Ciye yang lagi development&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;buat app heroku-nya, jangan lupa buat akun dulu, awas nama aplikasinya ganti jangan faoziaziz&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku create faoziaziz
+heroku git:remote &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; faoziaziz
+
+git push heroku master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;edit file pada &lt;strong&gt;src/main/java/com/example/faoziaziz/DemoApplication.java&lt;/strong&gt; dengan kode berikut, (lokasi folder faoziaziz akan terganti sesuai dengan init pada string yang kalian buat)&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cm&quot;&gt;/* 
+  	bagian package jangan diganti jadi faoziaziz
+  	pake yang bawaan ajah pas kamu lagi install 
+
+*/&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;example&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;faoziaziz&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;org.springframework.boot.SpringApplication&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;org.springframework.boot.autoconfigure.SpringBootApplication&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;org.springframework.web.bind.annotation.*&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;org.springframework.stereotype.*&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;nd&quot;&gt;@Controller&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@SpringBootApplication&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;DemoApplication&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nd&quot;&gt;@RequestMapping&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;nd&quot;&gt;@ResponseBody&lt;/span&gt;
+
+	&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;home&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+	&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;SpringApplication&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DemoApplication&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;untuk runnya tinggal&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku &lt;span class=&quot;nb&quot;&gt;local &lt;/span&gt;web
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;lalu cek localhost:8080 anda.&lt;/p&gt;</content><author><name>Aziz Amerul Faozi</name></author><category term="TA" /><summary type="html">Bagi para pecinta bahasa pemrograman Java, mungkin dynamic web sudah tidak asing dengan tomcat dan servlet. Tapi kali ini kita akan mencoba untuk mengopreknya menggunakan CLI (Command Line Interface), karena komputer saya terlalu berat untuk memproses Eclipse. Sayangnya dengan berbagai cara saya tidak bisa menggunakan settingan proxy untuk spring, walaupun maven masih bisa digunakan dengan mengedit file m2/settings.xml tapi saya membutuhkan kuota internet untuk bisa menjalankan perintah spring init -dependencies=web faoziaziz setelah itu jangan lupa rubah dalam mode offline supaya kita tidak perlu download lagi untuk me-run kode yang sudah kita buat dengan perintah mvn -o install mvn dependency:go-offline jangan lupa juga membuat Procfile dengan isi berikut agar nanti pas deploy pake heroku tidak susah. web: java -jar target/*.jar lalu buat repository git perintah berikut git init git add . git commit -m &quot;Ciye yang lagi development&quot; buat app heroku-nya, jangan lupa buat akun dulu, awas nama aplikasinya ganti jangan faoziaziz heroku create faoziaziz heroku git:remote -a faoziaziz git push heroku master edit file pada src/main/java/com/example/faoziaziz/DemoApplication.java dengan kode berikut, (lokasi folder faoziaziz akan terganti sesuai dengan init pada string yang kalian buat) /* bagian package jangan diganti jadi faoziaziz pake yang bawaan ajah pas kamu lagi install */ package com.example.faoziaziz; import org.springframework.boot.SpringApplication; import org.springframework.boot.autoconfigure.SpringBootApplication; import org.springframework.web.bind.annotation.*; import org.springframework.stereotype.*; @Controller @SpringBootApplication public class DemoApplication { @RequestMapping(&quot;/&quot;) @ResponseBody String home() { return &quot;Hello World&quot;; } public static void main(String[] args) { SpringApplication.run(DemoApplication.class, args); } } untuk runnya tinggal heroku local web lalu cek localhost:8080 anda.</summary></entry><entry><title type="html">Antenna</title><link href="http://localhost:4000/kacang-polong/2018/02/09/Antenna.html" rel="alternate" type="text/html" title="Antenna" /><published>2018-02-09T17:14:00+07:00</published><updated>2018-02-09T17:14:00+07:00</updated><id>http://localhost:4000/kacang-polong/2018/02/09/Antenna</id><content type="html" xml:base="http://localhost:4000/kacang-polong/2018/02/09/Antenna.html">&lt;p&gt;Dengan berbekal nasehat dari Dosennya, Shadi melakukan perjalanan spiritual untuk menjadi engineer terbaik seantero jagad. Walau hanya pesan, &lt;em&gt;“Engineer terbaik adalah engineer yang tidak pernah melihat engineer lain lebih buruk dari dirinya.”&lt;/em&gt; dari dosennya. Dia membulatkan tekat untuk pergi ke Universitas di negara ini.&lt;/p&gt;
 
 &lt;p&gt;Dalam kelas dia melihat ada seorang mahasiswa yang bahkan tidak bisa menjawab pertanyaan simple tentang antena. Dalam hati dia berkata pada dirinya, &lt;em&gt;“Akh, tidak mungkin orang ini lebih baik dari saya tentang masalah antenna.”&lt;/em&gt;&lt;/p&gt;
 
@@ -175,6 +241,4 @@ mvn package -Dskiptests
 
 &lt;p&gt;FPGA juga memiliki alamat permanent yang bisa diakses dengan menggunakan perintah&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt; readDna &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; &amp;lt;position&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Aziz Amerul Faozi</name></author><category term="TA" /><summary type="html">Untuk komunikasi antara SPI dan Spartan FPGA</summary></entry><entry><title type="html">SDR Cantik</title><link href="http://localhost:4000/techneandpraxis/2018/01/23/Software-Radio-Defined.html" rel="alternate" type="text/html" title="SDR Cantik" /><published>2018-01-23T17:40:46+07:00</published><updated>2018-01-23T17:40:46+07:00</updated><id>http://localhost:4000/techneandpraxis/2018/01/23/Software-Radio-Defined</id><content type="html" xml:base="http://localhost:4000/techneandpraxis/2018/01/23/Software-Radio-Defined.html">&lt;p&gt;Seperti yang dikatakan oleh Guilermo Macaroni (Akh peduli setan tulisanya salah, Guilermo Macaroni adalah nama yang saya berikan untuk sebuah kopi espresso dengan jeruk nipis diatas nya dan dimakan bersama makaroni), bahwa jangan pernah meremehkan wireles communication. Saya masih bingung dengan latar belakan TA kali ini, iyah jelas bahwa membuat SDR sudah pernah dikerjakan oleh orang lain. Namun kali ini saya mencoba untuk menulis draft untuk TA kali ini.&lt;/p&gt;
-
-&lt;p&gt;IoT menjadi salah satu bahasan di IETF. Banyak beragam kasus seperti Fog computing yang memerlukan kecerdasan bukan sekedar dalam pengolahan distribusi IP tapi juga bagaimana Defice lebih efektif untuk diakses. Bagaimana sebuah transimiter bisa mengakses lokasi yang cantik, dengan beam pattern yang cantik, bahkan antena diharapkan bisa diprogram atau dimasukan GA kalo bisa, biar tambah cantik, walau aku tidak yakin hal itu akan lebih cantik dari wajahmu.&lt;/p&gt;</content><author><name>Aziz Amerul Faozi</name></author><summary type="html">Seperti yang dikatakan oleh Guilermo Macaroni (Akh peduli setan tulisanya salah, Guilermo Macaroni adalah nama yang saya berikan untuk sebuah kopi espresso dengan jeruk nipis diatas nya dan dimakan bersama makaroni), bahwa jangan pernah meremehkan wireles communication. Saya masih bingung dengan latar belakan TA kali ini, iyah jelas bahwa membuat SDR sudah pernah dikerjakan oleh orang lain. Namun kali ini saya mencoba untuk menulis draft untuk TA kali ini. IoT menjadi salah satu bahasan di IETF. Banyak beragam kasus seperti Fog computing yang memerlukan kecerdasan bukan sekedar dalam pengolahan distribusi IP tapi juga bagaimana Defice lebih efektif untuk diakses. Bagaimana sebuah transimiter bisa mengakses lokasi yang cantik, dengan beam pattern yang cantik, bahkan antena diharapkan bisa diprogram atau dimasukan GA kalo bisa, biar tambah cantik, walau aku tidak yakin hal itu akan lebih cantik dari wajahmu.</summary></entry></feed>
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt; readDna &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; &amp;lt;position&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Aziz Amerul Faozi</name></author><category term="TA" /><summary type="html">Untuk komunikasi antara SPI dan Spartan FPGA</summary></entry></feed>
