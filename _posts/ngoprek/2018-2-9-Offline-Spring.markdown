@@ -15,7 +15,7 @@ excerpt_separator:  <!--more-->
 
 Bagi para pecinta bahasa pemrograman Java, mungkin dynamic web sudah tidak asing dengan tomcat dan servlet. Tapi kali ini kita akan mencoba untuk mengopreknya menggunakan CLI (Command Line Interface), karena komputer saya terlalu berat untuk memproses Eclipse.
 
-Sayangnya dengan berbagai cara saya tidak bisa menggunakan settingan proxy untuk spring, walaupun maven masih bisa digunakan dengan mengedit [file m2/settings.xml]() tapi saya membutuhkan kuota internet untuk bisa menjalankan perintah
+Sayangnya dengan berbagai cara saya tidak bisa menggunakan settingan proxy untuk spring, walaupun maven masih bisa digunakan dengan mengedit [file m2/settings.xml](http:/techneandpraxis/filsafat/2018/02/05/Kopi-Jokowi.html) tapi saya membutuhkan kuota internet untuk bisa menjalankan perintah
 
 ```bash
 spring init -dependencies=web faoziaziz
