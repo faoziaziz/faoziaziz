@@ -17,7 +17,7 @@ excerpt_separator:  <!--more-->
 Oke guys sekarang kita mencoba untuk menaruh server MQTT di heroku, walaupun sepertinya susah untuk mengakses port 1883 dari ITB tapi kita akan coba menggunakan perantara HTTP/HTTPS protokolnya untuk bisa men-subscribe dan post topik dari dashboard swing yang akan kita buat nanti.
 
 # Arsitekturnya
-![Arsitekturnya](https://github.com/faoziaziz/IdiotBGT/blob/master/images/pic1.png)
+![Arsitekturnya](https://raw.githubusercontent.com/faoziaziz/IdiotBGT/master/images/pic1.png)
 
 mungkin kita akan mencoba JSON untuk bisa dipakai mengakses ke server Moquette di heroku.
 
