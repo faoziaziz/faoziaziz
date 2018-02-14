@@ -265,6 +265,106 @@
   
   <article class="post-body">
     <h2 class="post-title">
+      <a href="/techneandpraxis/2018/02/14/Web-heroku-bahasa-java.html">
+        Web Heroku Basa Jawa
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">14 Feb 2018</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/TechneAndPraxis.html">
+          TechneAndPraxis
+        </a>
+      
+    
+  </span>
+</div>
+
+    
+      <p>Oke guys sebelumnya kita pernah ngoprek pake Spring, kali ini kita akan mencoba untuk membuatnya dari maven, buat yang belum install maven, silahkan install maven dulu yah.</p>
+
+<p>Untuk memulainya kita generate dulu direktorinya guys dengan perintah berikut</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mvn archetype:generate <span class="nt">-DgroupId</span><span class="o">=</span>org.labseni.javalabseni <span class="nt">-DartifactId</span><span class="o">=</span>javalabseni <span class="nt">-DarchetypeArtifactId</span><span class="o">=</span>maven-archetype-quickstart <span class="nt">-DinteractiveMode</span><span class="o">=</span><span class="nb">false</span>
+</code></pre></div></div>
+<p>masuk ke direktory project dengan perintah</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>javalabseni
+</code></pre></div></div>
+<p>edit file pom.xml nya dengan kode berikut</p>
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;project</span> <span class="na">xmlns=</span><span class="s">"http://maven.apache.org/POM/4.0.0"</span> <span class="na">xmlns:xsi=</span><span class="s">"http://www.w3.org/2001/XMLSchema-instance"</span>
+  <span class="na">xsi:schemaLocation=</span><span class="s">"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;modelVersion&gt;</span>4.0.0<span class="nt">&lt;/modelVersion&gt;</span>
+  <span class="nt">&lt;groupId&gt;</span>org.labseni.javalabseni<span class="nt">&lt;/groupId&gt;</span>
+  <span class="nt">&lt;artifactId&gt;</span>javalabseni<span class="nt">&lt;/artifactId&gt;</span>
+  <span class="nt">&lt;packaging&gt;</span>jar<span class="nt">&lt;/packaging&gt;</span>
+  <span class="nt">&lt;version&gt;</span>1.0-SNAPSHOT<span class="nt">&lt;/version&gt;</span>
+  <span class="nt">&lt;name&gt;</span>javalabseni<span class="nt">&lt;/name&gt;</span>
+  <span class="nt">&lt;url&gt;</span>http://maven.apache.org<span class="nt">&lt;/url&gt;</span>
+  <span class="nt">&lt;dependencies&gt;</span>
+    <span class="nt">&lt;dependency&gt;</span>
+      <span class="nt">&lt;groupId&gt;</span>junit<span class="nt">&lt;/groupId&gt;</span>
+      <span class="nt">&lt;artifactId&gt;</span>junit<span class="nt">&lt;/artifactId&gt;</span>
+      <span class="nt">&lt;version&gt;</span>3.8.1<span class="nt">&lt;/version&gt;</span>
+      <span class="nt">&lt;scope&gt;</span>test<span class="nt">&lt;/scope&gt;</span>   
+    <span class="nt">&lt;/dependency&gt;</span>
+     <span class="c">&lt;!--Ini tambahan dari pribadi, buat ngerun jadi webserver --&gt;</span>
+     <span class="nt">&lt;dependency&gt;</span>
+      <span class="nt">&lt;groupId&gt;</span>javax.servlet<span class="nt">&lt;/groupId&gt;</span>
+      <span class="nt">&lt;artifactId&gt;</span>jstl<span class="nt">&lt;/artifactId&gt;</span>
+      <span class="nt">&lt;version&gt;</span>1.2<span class="nt">&lt;/version&gt;</span>
+      <span class="nt">&lt;scope&gt;</span>compile<span class="nt">&lt;/scope&gt;</span>   
+    <span class="nt">&lt;/dependency&gt;</span>
+
+     <span class="nt">&lt;dependency&gt;</span>
+      <span class="nt">&lt;groupId&gt;</span>org.springframework<span class="nt">&lt;/groupId&gt;</span>
+      <span class="nt">&lt;artifactId&gt;</span>spring-webmvc<span class="nt">&lt;/artifactId&gt;</span>
+      <span class="nt">&lt;version&gt;</span>4.3.0.RELEASE<span class="nt">&lt;/version&gt;</span>
+      <span class="nt">&lt;scope&gt;</span>compile<span class="nt">&lt;/scope&gt;</span>   
+    <span class="nt">&lt;/dependency&gt;</span>
+    <span class="nt">&lt;dependency&gt;</span>
+      <span class="nt">&lt;groupId&gt;</span>javax.servlet<span class="nt">&lt;/groupId&gt;</span>
+      <span class="nt">&lt;artifactId&gt;</span>javax.servlet-api<span class="nt">&lt;/artifactId&gt;</span>
+      <span class="nt">&lt;version&gt;</span>3.1.0<span class="nt">&lt;/version&gt;</span>
+      <span class="nt">&lt;scope&gt;</span>provided<span class="nt">&lt;/scope&gt;</span>   
+    <span class="nt">&lt;/dependency&gt;</span>
+  <span class="nt">&lt;/dependencies&gt;</span>
+<span class="nt">&lt;/project&gt;</span>
+</code></pre></div></div>
+
+<p>Download dependencynya biar bisa dipake lagi sewaktu-waktu, dengan perintah mvn berikut</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mvn dependency:go-offline
+</code></pre></div></div>
+<p>lalu install dengan mode offline biar hemat kuota</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mvn <span class="nt">-o</span> <span class="nb">install</span>
+</code></pre></div></div>
+<p>buat direktory webapp dengan perintah berikut</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir</span> <span class="nt">-p</span> src/main/webapp
+</code></pre></div></div>
+<p>buat file azizganteng.jsp</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">touch </span>src/main/webapp/WEB-INF/azizganteng.jsp
+</code></pre></div></div>
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
+  
+  <article class="post-body">
+    <h2 class="post-title">
       <a href="/kacang-polong/2018/02/14/Cermin.html">
         Cermin
       </a>
@@ -289,13 +389,13 @@
 </div>
 
     
-      <p>Setalah pertemuan saat mengoprek, Shadi berkenalan dengan lelaki yang mengejutkan itu.</p>
+      <p>Setelah pertemuan saat mengoprek, Shadi berkenalan dengan lelaki yang mengejutkan itu.</p>
 
 <p><em>“Aku Tristan.”</em></p>
 
 <p><em>“Tristan ? Aku Shadi.”</em>, heran dengan nama lelaki itu yang mengaku sebagai Tristan.</p>
 
-<p><em>“Keren-gak nama ane? Mirip tokoh di Richard Wagner kan?”</em></p>
+<p><em>“Keren-gak nama ane? Mirip tokoh di novel Richard Wagner kan?”</em></p>
 
 <p><em>“Itu beneran namamu? “</em></p>
 
@@ -837,52 +937,6 @@ mvn package -Dskiptests
 <p>Ekstase, juga memberikan kesadaran kita bahwa segala sesuatu memang hanya bisa dinikmati oleh sang Ansos (Entitas yang ada disana). Dan revolusi yang merubah struktur masyarakatpun sebenarnya yang menikmati adalah entitas organik (manusia sebagai individu). Seperti halnya cinta yang hanya bisa dinikmati oleh Individu, maka alangkah mustahil jika kita berusaha untuk merevolusi sesuatu tanpa memahami kebutuhan individu.</p>
 
 <p>Kembali ke topik Ketua Bem UI, mungkin sepatah kata untuk memberikan semangat hidup untuk Ketua Bem UI adalah <em>“Semangat nak, manusia memang dikutuk untuk soliter.”</em> Untuk apa kau memberikan kartu kuning kepada pak presiden jika engkau tidak bisa menikmati kritik netizen, bukankah kritik netizen itu begitu indah. Kau lihat betapa pedulinya mereka kepada dirimu hingga dia menelusuri akun twitter mu untuk dijadikan bahan hiburan. Kritik netizen setidaknya akan membuat mu menyadari bahwa untuk menggerakan masa memang sesimple memberikan kartu kuning kepada presiden.</p>
-
-
-    
-
-    
-      
-      
-      
-
-      
-    
-  </article>
-  
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/techneandpraxis/2018/01/30/Genetik-SDR.html">
-        Genetik SDR
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">30 Jan 2018</span>
-  <span class="post-categories">
-    
-      &bull;
-
-      
-      
-      
-
-      
-        <a href="/category/TechneAndPraxis.html">
-          TechneAndPraxis
-        </a>
-      
-    
-  </span>
-</div>
-
-    
-      <p>Oke guys sambil berusaha menyelesaikan Genotype nya sekarang kita akan analisa bagian Fenotype. Oh, iya kenapa kali ini saya sering menggunakan kata kata yang dipakai dalam dunia perbiologian. Yang jelas hal itu saya gunakan untuk mengusahakan Genetik Algoritma bisa masuk dalam TA indah kali ini.</p>
-
-<p>Oke Genotype dalam kasus ini merupakan sebuah sebuah logic gate yang nanti kita akan program dengan VHDL, fenotype merupakan bagian logic arsitecturenya. Dalam kasus ini Fenotype dalam TA ini adalah Modulator, DDS, algoritma sytolic, FIR, atau butterworth filter. Dalam TA ini bagian Fenotype yang paling tidak jadi adalah prosesor yang nanti kita coba menggunakan VHDL.</p>
-
-<p>Selection, Crossover, maupun mutasi yang nanti kita gunakan sebagai analisa optimisasi SDR ini masih saya coba identifikasi lagi tapi yang jelas path dari FPGA ini.</p>
-
-<p>Kenapa Genetik Algortithm dipakai di sini. Efektifitas dan efisiensi sebenarnya yang diincar dari algoritma ini, walaupun sebenarnya GA dipakai untuk menyelesaikan permasalahan LCS (Longest Common Subsquence) dalam dinamic programing. Tapi semoga beberapa algoritma ini bisa dipakai untuk mempercantik SDR dibagian arsitekturnya.</p>
 
 
     

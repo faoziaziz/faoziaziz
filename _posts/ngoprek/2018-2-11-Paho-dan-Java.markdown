@@ -8,8 +8,10 @@ categories:
 - TechneAndPraxis
 tags:
 - Paho
+- Maven
 - Java
 - IoT
+- Heroku
 - MQTT
 excerpt_separator:  <!--more-->
 ---

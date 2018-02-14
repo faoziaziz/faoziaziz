@@ -9,6 +9,7 @@ categories:
 tags:
 - Heroku
 - Java
+- Maven
 - Web
 excerpt_separator:  <!--more-->
 ---
