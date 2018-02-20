@@ -1,0 +1,49 @@
+---
+layout: post
+title: "Django"
+date: 2018-2-20 17:21:00 +0700
+author: Aziz Amerul Faozi
+comments: true
+categories: 
+- TechneAndPraxis
+tags:
+- Python
+- Django
+- MVC
+excerpt_separator:  <!--more-->
+---
+
+Oke, guys biar semakin parselmouth, marilah kita kembali mengoprek MVC (Model View Controller), setelah berhasil membuat situs mirip twitter dari ruby, tapi karena heroku tidak memberikan akses ke SendGrid dan Amazon W3, saya beralih membuat site, dengan framework Django, buat yang masih ingin paselmouth mungkin ini bisa menaikkan kemampuan anda di bidang per-sanca-an.
+
+Oke karena saya menggunakan Operating System Fedora, kita install dulu djangonya dengan perintah berikut.
+
+```bash
+sudo dnf install python2-django
+```
+untuk mengetes bahwa django telah terinstall ke dalam library python, 
+
+```python
+python
+
+>>> import django
+>>> print django.VERSION
+```
+dalam komputer saya akan muncul berikut ini
+
+```python
+(1,11,10,u'final', 0)
+```
+walaupun saya tidak tahu itu artinya apa tapi yang jelas library tersebut telah terinstall di komputer saya.
+
+Untuk memulai membuat web nya, setelah install library django tadi kita bisa memanggilnya dalam bash untuk membuat sebuah project web dengan perintah berikut ini
+
+```bash
+django-admin startproject azizridle
+```
+sekarang masuk ke direktory azizridle dan run servernya dengan perintah berikut
+
+```bash
+cd azizridle
+python manage.py runserver
+```
+lalu cek di localhost:8000, dengan web browser anda.
