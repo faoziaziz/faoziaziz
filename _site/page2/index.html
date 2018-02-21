@@ -123,6 +123,10 @@
     
   
 
+  
+    
+  
+
 
   
 
@@ -170,6 +174,10 @@
     
   
 
+  
+
+  
+    
   
 
   
@@ -274,6 +282,155 @@
 
   
 
+  
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="/techneandpraxis/filsafat/2018/02/05/Kopi-Jokowi.html">
+        Kopi Jokowi
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">05 Feb 2018</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/TechneAndPraxis.html">
+          TechneAndPraxis
+        </a>
+      
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/Filsafat.html">
+          Filsafat
+        </a>
+      
+    
+  </span>
+</div>
+
+    
+      <p>Sembari melepas kesedihan karena ide Multiplexing Polarisasi pernah dibahas oleh NASA. Saya mencoba melepas kesedihan dengan melakukan tindakan tidak jelas. Ah bukan hanya karena malu karena multiplexing polarisasi yang sudah pernah ditemukan, tapi alih-alih menambahkannya kedalam TA supaya keren, malah membuat saya susah move on dari kesedihan gagal meraih nobel. Kali ini saya mencoba untuk menginstall Paho, salah satu platform yang disediakan untuk memanfaatkan MQTT. Sayangnya untuk menginstall ini tidak bisa saya lakukan dengan menggunakan WiFI ITB karena terhalang oleh proxy yang mengeblock port 443. Karena saya lagi sedih, saya memaksakan diri untuk menginstallnya dan nebeng ke Coffice Bandung dekat dengan Unpad DU. Tapi karena tidak enak dengan baristanya saya mesen saja kopi yang murah, akh jika harga kopi espresso segitu pasti tubruk lebih murah, dan sayangnya harganya sama 17 ribu. Alih-alih ingin berhemat untuk memanfaatkan wifi gratis malah jadi hedon, ya sudahlah yang penting saya bisa mengoprek dengan bebas tanpa dibatasi proxy, dan coba untuk mengeksploitasi WiFi-nya supaya uang 17 ribu itu bisa kembali dengan bentuk lain seperti untuk download buku, atau untuk install Paho Dikomputer saya supaya bisa ngoprek, wkwkwkkwk.</p>
+
+<h2 id="install-paho">Install Paho</h2>
+<p>Buat yang ingin ngoprek dengan paho anda bisa mendownloadnya <a href="https://codeload.github.com/eclipse/paho.mqtt.java/zip/master">di sini</a>
+setelah berhasil di download anda lalu mengekstraknya. Kalau mau terlihat keren anda bisa mengekstraknya dengan terminal dengan perintah berikut</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>unzip paho.mqtt.java.zip
+</code></pre></div></div>
+<p>setelah itu masuk kedirektorinya dan menginstall dengan maven jangan lupa edit bagian pom.xml nya dari kepler menjadi oxygen.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd paho.mqtt.java
+mvn package -Dskiptests
+</code></pre></div></div>
+
+<h2 id="kopi">Kopi</h2>
+<p>Kopi tubruk mengingatkan saya pada masa lalu yang sok iye pada pengetahuan kopi. Tapi memang begitulah kopi rasanya seperti itu, seperti Jokowi yang memang mirip dengan kopi tubruk. Semakin lama maka kopinya akan semakin robustam tapi memang saya memesan kopi lampung. Padahal dulu pas aku mesen kopi lampung rasanya kayak rasa coklat, wkwkwk mungkin beda tempat beda rasa. Kopi tubruk memang kopi yang simple dan memang hanya butuh roasting dan digiling lalu diseduh dengan air panas.</p>
+
+<h2 id="maven-dengan-proxy">Maven dengan Proxy</h2>
+
+<p>Namun setelah perjalanan panjang untuk membeli pulsa dan mencari wifi gratisan ternyata didapat juga methode menggunakan maven dengan proxy. Cukum buat file di</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~/.m2/settings.xml
+</code></pre></div></div>
+<p>dan menambahkan beberapa kode xml berikut ini</p>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nt">&lt;settings&gt;</span>
+  <span class="nt">&lt;proxies&gt;</span>
+     <span class="nt">&lt;proxy&gt;</span>
+	<span class="nt">&lt;id&gt;</span>genproxy<span class="nt">&lt;/id&gt;</span>
+        <span class="nt">&lt;active&gt;</span>true<span class="nt">&lt;/active&gt;</span>
+        <span class="nt">&lt;protocol&gt;</span>http<span class="nt">&lt;/protocol&gt;</span>
+        <span class="nt">&lt;host&gt;</span>cache.itb.ac.id<span class="nt">&lt;/host&gt;</span>
+        <span class="nt">&lt;port&gt;</span>8080<span class="nt">&lt;/port&gt;</span>
+        <span class="nt">&lt;username&gt;</span>usernameAI3<span class="nt">&lt;/username&gt;</span>
+        <span class="nt">&lt;password&gt;</span>PasswordAI3<span class="nt">&lt;/password&gt;</span>
+     <span class="nt">&lt;/proxy&gt;</span>
+  <span class="nt">&lt;/proxies&gt;</span>
+<span class="nt">&lt;/settings&gt;</span>
+
+</code></pre></div></div>
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
+  
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="/kacang-polong/2018/02/05/Selamat-Datang.html">
+        Selamat Datang di Wonosobo
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">05 Feb 2018</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/Kacang-Polong.html">
+          Kacang-Polong
+        </a>
+      
+    
+  </span>
+</div>
+
+    
+      <p>Selamat datang di Kabupaten Wonosobo. Berbekal kegelisahan akan dosa-dosa yang pernah dia lakukan di masa lalu, Shadi mengungkapkan keinginannya untuk pergi ke pesantren, setelah dia menemui kakek angkatnya dan menyarankan untuk pergi ke Wonosobo dia meminta restu orang tua. Walaupun ibu rada tidak tega dengan kepergiannya, tapi bapaknya cukup gembira karena keinginannya untu memperbaiki diri.</p>
+
+<p>Hari ini dia bertemu dengan paman ipar dari kakek angkatnya. Setelah perundingan lama dengan ditemani oleh kakeknya dia memutuskan untuk pergi ke pesantren At-Taubah. Mungkin nama yang bagus untuk pertaubatan yang akan dia lakukan.</p>
+
+<p>Hari ini memang pertama dia dipesantren dia bertanya kepada penghuni di pesantren, <em>“Memang apa saja sih yang dipelajari di pesantren ? “</em></p>
+
+<p>Ah maklum masih pemula, namun karena memang keramahan akan pesantren disana, <em>“Biasa palingan jurumiyah dan kawan kawan.”</em></p>
+
+<p><em>“Kalau jadwalnya bagaimana?”</em></p>
+
+<p><em>“Ngikut ajah dengan anak SMP.”</em>, jawab si Kodi.</p>
+
+<p>Mungkin karena tempat baru, Shadi tidak onani malam ini. Selain cuaca dingin yang menusuk di Wonosobo, adalah tindakan bodoh jika dia onani dan harus berangkat ngaji pas sebelum subuh di pesantren.</p>
+
+<p>Jam menunjukan pukul 15.00, seperti biasanya sebelum sholat Ashar, Shadi mengikuti halaqoh di pesantren. Kiyai utama memberikan penjelasan pada santri-santri yang sudah paling tua di pesantren itu, padahal Shadi baru masuk dia tidak masuk ke kelas anak SMP walaupun dia tingkat 2 di Universitas sebagai santri baru dia masuk ke halaqoh tetua dengan distribusi anak SMA.</p>
+
+<p><em>“Seriuslah dalam belajar agar ketika kalian dewasa kalian tidak menyesali apa yang kalian lakukan.”</em></p>
+
+<p>Shadi menangis tersedu-sedu hingga mata-nya merah. Teringat dimasa lalu dia tidak belajar dengan serius. Berapa dosa yang dia ingat pada guru dan orang tua sebelumnya. Dia teringat kata guru dan orang tuanya, <em>“Sukseslah melebihi saya.”</em>, dalam pikiran terharu dan sedih, Shadi memiliki pandangan bahwa salah satu tugas dari generasi penerus adalah melampaui generasi sebelumnya.</p>
+
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
   
   <article class="post-body">
     <h2 class="post-title">
@@ -640,94 +797,6 @@
 
       
         <a href="/techneandpraxis/2018/01/22/Pin-arm-m0-ISP-Nouvton.html">More &hellip;</a>
-      
-    
-  </article>
-  
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/techneandpraxis/2018/01/22/Tunning-RF.html">
-        Tunning RF UI
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">22 Jan 2018</span>
-  <span class="post-categories">
-    
-      &bull;
-
-      
-      
-      
-
-      
-        <a href="/category/TechneAndPraxis.html">
-          TechneAndPraxis
-        </a>
-      
-    
-  </span>
-</div>
-
-    
-      <p>Oke gus sembari mengerjakan tugas akhir di bagian user interface sekarang kita mencoba untuk membuat slider untuk tunning RF kita kali ini.</p>
-
-
-    
-
-    
-      
-      
-      
-
-      
-        <a href="/techneandpraxis/2018/01/22/Tunning-RF.html">More &hellip;</a>
-      
-    
-  </article>
-  
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/filsafat/2018/01/21/Gravitasi.html">
-        Gravitasi
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">21 Jan 2018</span>
-  <span class="post-categories">
-    
-      &bull;
-
-      
-      
-      
-
-      
-        <a href="/category/Filsafat.html">
-          Filsafat
-        </a>
-      
-    
-  </span>
-</div>
-
-    
-      <p>Semua absurb, lihatlah banyak sekali kejadian di dunia ini. Banyak yang memodelkan dalam persamaan, baik dalam bentuk parabolik, parsamaan differential, integral, bahkan sampe pada persamaan yang tidak sama. Tapi semua hal setidak beraturan-nya akan kembali pada base-nya, begitulah kata Simone Weil dalam Grace dan Gravity. Dan tulisan ini akan menjadi resume dari <em>Grace and Gravity</em> karya <em>Simone Weil</em>.</p>
-
-<ul>
-  <li><em>Amor Fati</em>, <em>Tanpa Hasrat</em>, semua berakar pada satu hal yaitu Voidness. Ketiadaan, kehampaan, nihilisme nilai muncul dari sana.</li>
-  <li>Berfilsafat adalah belajar bagaimana untuk mati.</li>
-  <li>Atheis adalah prosesi penyucian.</li>
-</ul>
-
-
-    
-
-    
-      
-      
-      
-
       
     
   </article>

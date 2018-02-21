@@ -48,6 +48,8 @@ python manage.py runserver
 ```
 lalu cek di localhost:8000, dengan web browser anda.
 
-## Further 
 
-1. [Github azizridle](https://github.com/faoziaziz/azizridle)
+## Further 
+1. [Startapp](http:/techneandpraxis/2018/02/21/Startapp.html)
+2. [Github azizridle](https://github.com/faoziaziz/azizridle)
+
