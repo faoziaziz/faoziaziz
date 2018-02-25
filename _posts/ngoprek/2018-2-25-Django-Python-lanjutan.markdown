@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Django Python lanjutan"
-date: 2018-2-22 13:39:00 +0700
+date: 2018-2-25 22:46:00 +0700
 author: Aziz Amerul Faozi
 comments: true
 categories: 
