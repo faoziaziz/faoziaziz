@@ -1,4 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-22T13:39:20+07:00</updated><id>http://localhost:4000/</id><title type="html">CBGL</title><subtitle>Catatan biar gak lupa</subtitle><author><name>Aziz Faozi</name></author><entry><title type="html">NBiot GMSK</title><link href="http://localhost:4000/techneandpraxis/2018/02/22/NBiot-GMSK.html" rel="alternate" type="text/html" title="NBiot GMSK" /><published>2018-02-22T13:39:00+07:00</published><updated>2018-02-22T13:39:00+07:00</updated><id>http://localhost:4000/techneandpraxis/2018/02/22/NBiot-GMSK</id><content type="html" xml:base="http://localhost:4000/techneandpraxis/2018/02/22/NBiot-GMSK.html">&lt;p&gt;&lt;em&gt;“Mengapa nb iot menggunakan modulasi GMSK?”&lt;/em&gt; pertanyaan itu menjadi penting ketika OFDM hampir merajalela di dunia pertelekomunikasian. Walaupun sebenarnya kita juga bisa menggunakna GMSK-OFDM untuk mengoptimalkannya, karena memang OFDM tidaklah mirip dengan teknik modulasi, dan lebih cenderung mirip dengan teknik Multiplexing. OFDM memutar spectrum frequensi agar sinyal tidak berbenturan walau pada titik yang sama, kalau secara geometri ofdm akan membentu sinyal yang cenderung 3D kalau dilihat dengan Spectrum Analizer yang mampu mengukur dalam kerangka 3 Dimensi.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-26T02:18:37+07:00</updated><id>http://localhost:4000/</id><title type="html">CBGL</title><subtitle>Catatan biar gak lupa</subtitle><author><name>Aziz Faozi</name></author><entry><title type="html">Souvenir de vacances</title><link href="http://localhost:4000/bahasa/2018/02/26/Souvenirs-de-vacances.html" rel="alternate" type="text/html" title="Souvenir de vacances" /><published>2018-02-26T01:31:46+07:00</published><updated>2018-02-26T01:31:46+07:00</updated><id>http://localhost:4000/bahasa/2018/02/26/Souvenirs-de-vacances</id><content type="html" xml:base="http://localhost:4000/bahasa/2018/02/26/Souvenirs-de-vacances.html">&lt;p&gt;Mencoba melanjutkan bahasa prancis bab ke 15 bukunnya Jean Paul Vallete.&lt;/p&gt;
+
+&lt;h3 id=&quot;subbab-5&quot;&gt;Subbab 5&lt;/h3&gt;
+&lt;p&gt;À la mer ou à la montagne?&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Élise a fait un voyage au Colorado.
+    &lt;ul&gt;
+      &lt;li&gt;Elle est allée à la montagne.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Vous avez nagé dans l’océan Atlantique.
+    &lt;ul&gt;
+      &lt;li&gt;Vous êtes allées à la mer.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Tu as passé une semaine sur la Riviera.
+    &lt;ul&gt;
+      &lt;li&gt;Je suis allée à la mer.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Nous avons photographié le Mont Blanc.
+    &lt;ul&gt;
+      &lt;li&gt;Nous sommes allées à la montagne.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Ma copine a fait du parapente (paragliding).
+    &lt;ul&gt;
+      &lt;li&gt;Elle a allée à la montagne.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Charlotte et Élodie ont passé les vacances à Tahiti.
+    &lt;ul&gt;
+      &lt;li&gt;Elles allées à la mer.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;J’ai fait du VTT dans les Alpes.
+    &lt;ul&gt;
+      &lt;li&gt;Tu es allée à la montagne.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Matteo a visité le Népal.
+    &lt;ul&gt;
+      &lt;li&gt;Il est allée à la montagne.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Aziz Faozi</name></author><category term="françasie" /><summary type="html">Mencoba melanjutkan bahasa prancis bab ke 15 bukunnya Jean Paul Vallete. Subbab 5 À la mer ou à la montagne? Élise a fait un voyage au Colorado. Elle est allée à la montagne. Vous avez nagé dans l’océan Atlantique. Vous êtes allées à la mer. Tu as passé une semaine sur la Riviera. Je suis allée à la mer. Nous avons photographié le Mont Blanc. Nous sommes allées à la montagne. Ma copine a fait du parapente (paragliding). Elle a allée à la montagne. Charlotte et Élodie ont passé les vacances à Tahiti. Elles allées à la mer. J’ai fait du VTT dans les Alpes. Tu es allée à la montagne. Matteo a visité le Népal. Il est allée à la montagne.</summary></entry><entry><title type="html">Django Python lanjutan</title><link href="http://localhost:4000/techneandpraxis/2018/02/25/Django-Python-lanjutan.html" rel="alternate" type="text/html" title="Django Python lanjutan" /><published>2018-02-25T22:46:00+07:00</published><updated>2018-02-25T22:46:00+07:00</updated><id>http://localhost:4000/techneandpraxis/2018/02/25/Django-Python-lanjutan</id><content type="html" xml:base="http://localhost:4000/techneandpraxis/2018/02/25/Django-Python-lanjutan.html">&lt;p&gt;Oke guys setelah menginstall django admin di &lt;a href=&quot;http:/techneandpraxis/2018/02/20/Django.html&quot;&gt;Django&lt;/a&gt; sekarang kita mencoba untuk memperbaiki file untuk bisa di hosting dengan heroku. Kita buat project-nya dahulu dengan template dari heroku dengan perintah berikut ini, project tersebut saya beri nama faoziaziz.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;django-admin.py startproject &lt;span class=&quot;nt&quot;&gt;--template&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;https://github.com/heroku/heroku-django-template/archive/master.zip &lt;span class=&quot;nt&quot;&gt;--name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Procfile faoziaziz
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;lalu masuk kedalam direktory faoziaziz&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;faoziaziz
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;lalu install pipenv&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pipenv &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;jangan lupa untuk mengaktifkan virtual environtment supaya pendevelopan python dengan pip bisa berjalan dengan lancar, walaupun secara direktory saya cek sama tetapi run project pip di dalam virtual environtment lebih worthed karena terintegrasi dengan pipenvnye&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt; /home/afaozi/.local/share/virtualenvs/faoziaziz-tlxp7l8x/bin/activate
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;kemudian coba kita masuk ke dalam virtual environment&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pipenv shell
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;kemudian kita coba run servernya dengan perintah&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku &lt;span class=&quot;nb&quot;&gt;local&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;cek ke dalam webbrowser dengan alamat localhost:5000,&lt;/p&gt;
+
+&lt;p&gt;jika anda ingin menguploadnya ke heroku server anda&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku create faoziaziz
+heroku git:remote &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; faoziaziz
+git init &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Push ke heroku&quot;&lt;/span&gt;
+git push heroku master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;lalu coba cek ke alamat https://faoziaziz.herokuapp.com, gunakan alamat kesukaan anda untuk bisa dipakai sesuai kebutuhan.&lt;/p&gt;</content><author><name>Aziz Amerul Faozi</name></author><category term="Python" /><category term="Django" /><summary type="html">Oke guys setelah menginstall django admin di Django sekarang kita mencoba untuk memperbaiki file untuk bisa di hosting dengan heroku. Kita buat project-nya dahulu dengan template dari heroku dengan perintah berikut ini, project tersebut saya beri nama faoziaziz. django-admin.py startproject --template=https://github.com/heroku/heroku-django-template/archive/master.zip --name=Procfile faoziaziz lalu masuk kedalam direktory faoziaziz cd faoziaziz lalu install pipenv pipenv install jangan lupa untuk mengaktifkan virtual environtment supaya pendevelopan python dengan pip bisa berjalan dengan lancar, walaupun secara direktory saya cek sama tetapi run project pip di dalam virtual environtment lebih worthed karena terintegrasi dengan pipenvnye source /home/afaozi/.local/share/virtualenvs/faoziaziz-tlxp7l8x/bin/activate kemudian coba kita masuk ke dalam virtual environment pipenv shell kemudian kita coba run servernya dengan perintah heroku local cek ke dalam webbrowser dengan alamat localhost:5000, jika anda ingin menguploadnya ke heroku server anda heroku create faoziaziz heroku git:remote -a faoziaziz git init . git commit -m &quot;Push ke heroku&quot; git push heroku master lalu coba cek ke alamat https://faoziaziz.herokuapp.com, gunakan alamat kesukaan anda untuk bisa dipakai sesuai kebutuhan.</summary></entry><entry><title type="html">NBiot GMSK</title><link href="http://localhost:4000/techneandpraxis/2018/02/22/NBiot-GMSK.html" rel="alternate" type="text/html" title="NBiot GMSK" /><published>2018-02-22T13:39:00+07:00</published><updated>2018-02-22T13:39:00+07:00</updated><id>http://localhost:4000/techneandpraxis/2018/02/22/NBiot-GMSK</id><content type="html" xml:base="http://localhost:4000/techneandpraxis/2018/02/22/NBiot-GMSK.html">&lt;p&gt;&lt;em&gt;“Mengapa nb iot menggunakan modulasi GMSK?”&lt;/em&gt; pertanyaan itu menjadi penting ketika OFDM hampir merajalela di dunia pertelekomunikasian. Walaupun sebenarnya kita juga bisa menggunakna GMSK-OFDM untuk mengoptimalkannya, karena memang OFDM tidaklah mirip dengan teknik modulasi, dan lebih cenderung mirip dengan teknik Multiplexing. OFDM memutar spectrum frequensi agar sinyal tidak berbenturan walau pada titik yang sama, kalau secara geometri ofdm akan membentu sinyal yang cenderung 3D kalau dilihat dengan Spectrum Analizer yang mampu mengukur dalam kerangka 3 Dimensi.&lt;/p&gt;
 
 &lt;p&gt;Lalu mengapa GMSK masih digunakan, yang jelas pada bagian modulator, Hilbert transform akan merubah bentuk sinyal yang kotak-kotak akan lebih cenderung bisa sinussoid, mengingat ketika kita mencoba membuat sinyal yang semakin kotak maka ada kecendrungan untuk melebarkan pita di domain frekuensi. Hilber transform ini akan lebih mengefisiensikan spektrum frekuensi namun memberikan dampak pada bentuk sinyal di domain waktu terlihat seperti sinusoid.&lt;/p&gt;
 
@@ -274,26 +357,4 @@ pip &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n
 
 &lt;p&gt;&lt;em&gt;“Jiwa engineer seperti cermin, dia akan memantulkan kesalahan engineer yang mengamati dari pengamatannya.”&lt;/em&gt;, Tristan berbicara pada Shadi.&lt;/p&gt;
 
-&lt;p&gt;Shadi kemudian menangis dan mengaku bersalah atas kejadian tadi.&lt;/p&gt;</content><author><name>Aziz Amerul Faozi</name></author><category term="Cermin" /><category term="Konduktor" /><summary type="html">Setelah pertemuan saat mengoprek, Shadi berkenalan dengan lelaki yang mengejutkan itu. “Aku Tristan.” “Tristan ? Aku Shadi.”, heran dengan nama lelaki itu yang mengaku sebagai Tristan. “Keren-gak nama ane? Mirip tokoh di novel Richard Wagner kan?” “Itu beneran namamu? “ “Iyalah, walaupun namaku beda sama di absensi kelas tadi. Tapi begitulah aku dipanggil. Biar nama asliku gak tercemar.” “Hmm” “Pourqui?” “Parce, ane sering bikin masalah, kalau nama asli ane ketahuan kan malu wkwkkwkw.”, Tristan ketawa, dan Shadi ikut tertawa. “Oh iya hari ini kita ada tutorial dengan instruktur-kan?” “Iye, di GKU-Barat lante 4.” Mereka berjalan dan masuk kelas kemudian instrukturnya juga masuk karena sudah waktunya masuk. Dengan belagak instrukturnya menunjukan betapa berkuasanya di kelas, dan dia meledek orang-orang cupu dikelas. Namun sayang Shadi yang duduk disebelahnya merasa sebel, hingga akhirnya dia menanyakan pertanyaan susah yang tidak bisa dijawab oleh instruktur. “Mengapa gelombang elektromagnet tidak bisa merambat di medium konduktor, padahal kalau kita bikin rangkaian pake konduktor?” “Instruktur bingung.” Kemudian Shadi meledek kembali instrukturnya sebagai balas dendam kesombongannya waktu itu. Instruktur marah dan memberikan dia kartu Kuning (Mirip Presiden yang dikasih kartu Kuning oleh anak BEM UI). Shadi kemudian sedih. “Jiwa engineer seperti cermin, dia akan memantulkan kesalahan engineer yang mengamati dari pengamatannya.”, Tristan berbicara pada Shadi. Shadi kemudian menangis dan mengaku bersalah atas kejadian tadi.</summary></entry><entry><title type="html">Penyucian</title><link href="http://localhost:4000/filsafat/2018/02/12/Penyucian.html" rel="alternate" type="text/html" title="Penyucian" /><published>2018-02-12T05:24:00+07:00</published><updated>2018-02-12T05:24:00+07:00</updated><id>http://localhost:4000/filsafat/2018/02/12/Penyucian</id><content type="html" xml:base="http://localhost:4000/filsafat/2018/02/12/Penyucian.html">&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Atheis adalah salah satu methode penyucian.”&lt;/em&gt;&lt;/strong&gt; dan &lt;strong&gt;&lt;em&gt;“Berfilsafat adalah bagaimana cara kita untuk mati.”&lt;/em&gt;&lt;/strong&gt;, tidak hanya imam Ghozali yang berujar bahwa &lt;strong&gt;&lt;em&gt;“Tercelalah orang-orang yang mencela orang yang menyucikan jiwa.”&lt;/em&gt;&lt;/strong&gt; dalam Ikhya Ulumudin, Simone Weil lah yang mengutarakan itu dalam &lt;strong&gt;&lt;em&gt;Grace and Gravity&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Mungkin mirip dengan konsep yang diajukan oleh Nietzsche, bahwa &lt;strong&gt;&lt;em&gt;Ubermensh merupakan Dynosian dan Apolonian sekaligus.&lt;/em&gt;&lt;/strong&gt;. Sering kita menjalani kehidupan, tapi kok beragam kecemasan tetep muncul padahal kita telah menjalani peribadatan agama dengan baik. Tapi, begitulah kecemasan, yang menampakan diri sebagai penderitaan dan rasa sakit, terkadang kita mengeluh dan bersikap &lt;strong&gt;&lt;em&gt;“Membenci Tuhan”&lt;/em&gt;&lt;/strong&gt;(Dalam tanda kutip). Memang seperti itu Tuhan, Dia tidak ingin terlalu mudah untuk disingkap, apalagi dengan jiwa yang penuh dengan kekotoran. Akh, cukup dengan sabun dan air kita membersihkan kotoran dalam tubuh. Lalu, bagaimana membersihkan kotoran dalam jiwa, &lt;strong&gt;&lt;em&gt;“Penderitaan dan rasa sakit”&lt;/em&gt;&lt;/strong&gt; menjadi methode penyucian kata para sufi, dan bukankah Nietzsche pernah berujar juga bahwa &lt;strong&gt;&lt;em&gt;“Penderitaan adalah proses penyingkapan agar kita mampu memahami kesadaran yang lebih mendalam.”&lt;/em&gt;&lt;/strong&gt; Lihatlah para Busthami, dia rela untuk meninggalkan kekuasaan hanya untuk menjadi seorang gelandangan untuk mampu menerima kesadaran Ilahiah. Memberikan uang kepada orang yang melemparinya dengan kenari, mengemis hanya untuk menyadari bahwa dirinya adalah makhluk paling rendah di dunia hanya untuk menyadari bahwa dirinya bahkan tidak lebih berharga dari sebutir debupun, dan tindakannya bersikap kafir hanya untuk menjaga hatinya tidak beribadah hanya karena pujian dari orang lain.&lt;/p&gt;</content><author><name>Aziz Amerul Faozi</name></author><category term="Agama" /><category term="Atheis" /><category term="Tuhan" /><summary type="html">“Atheis adalah salah satu methode penyucian.” dan “Berfilsafat adalah bagaimana cara kita untuk mati.”, tidak hanya imam Ghozali yang berujar bahwa “Tercelalah orang-orang yang mencela orang yang menyucikan jiwa.” dalam Ikhya Ulumudin, Simone Weil lah yang mengutarakan itu dalam Grace and Gravity. Mungkin mirip dengan konsep yang diajukan oleh Nietzsche, bahwa Ubermensh merupakan Dynosian dan Apolonian sekaligus.. Sering kita menjalani kehidupan, tapi kok beragam kecemasan tetep muncul padahal kita telah menjalani peribadatan agama dengan baik. Tapi, begitulah kecemasan, yang menampakan diri sebagai penderitaan dan rasa sakit, terkadang kita mengeluh dan bersikap “Membenci Tuhan”(Dalam tanda kutip). Memang seperti itu Tuhan, Dia tidak ingin terlalu mudah untuk disingkap, apalagi dengan jiwa yang penuh dengan kekotoran. Akh, cukup dengan sabun dan air kita membersihkan kotoran dalam tubuh. Lalu, bagaimana membersihkan kotoran dalam jiwa, “Penderitaan dan rasa sakit” menjadi methode penyucian kata para sufi, dan bukankah Nietzsche pernah berujar juga bahwa “Penderitaan adalah proses penyingkapan agar kita mampu memahami kesadaran yang lebih mendalam.” Lihatlah para Busthami, dia rela untuk meninggalkan kekuasaan hanya untuk menjadi seorang gelandangan untuk mampu menerima kesadaran Ilahiah. Memberikan uang kepada orang yang melemparinya dengan kenari, mengemis hanya untuk menyadari bahwa dirinya adalah makhluk paling rendah di dunia hanya untuk menyadari bahwa dirinya bahkan tidak lebih berharga dari sebutir debupun, dan tindakannya bersikap kafir hanya untuk menjaga hatinya tidak beribadah hanya karena pujian dari orang lain.</summary></entry><entry><title type="html">Paho dan Java</title><link href="http://localhost:4000/techneandpraxis/2018/02/11/Paho-dan-Java.html" rel="alternate" type="text/html" title="Paho dan Java" /><published>2018-02-11T23:09:00+07:00</published><updated>2018-02-11T23:09:00+07:00</updated><id>http://localhost:4000/techneandpraxis/2018/02/11/Paho-dan-Java</id><content type="html" xml:base="http://localhost:4000/techneandpraxis/2018/02/11/Paho-dan-Java.html">&lt;p&gt;Oke guys sekarang kita mencoba untuk menaruh server MQTT di heroku, walaupun sepertinya susah untuk mengakses port 1883 dari ITB tapi kita akan coba menggunakan perantara HTTP/HTTPS protokolnya untuk bisa men-subscribe dan post topik dari dashboard swing yang akan kita buat nanti.&lt;/p&gt;
-
-&lt;h1 id=&quot;arsitekturnya&quot;&gt;Arsitekturnya&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/faoziaziz/IdiotBGT/master/images/pic1.png&quot; alt=&quot;Arsitekturnya&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;mungkin kita akan mencoba JSON untuk bisa dipakai mengakses ke server Moquette di heroku.&lt;/p&gt;
-
-&lt;h1 id=&quot;progres-sementara&quot;&gt;Progres Sementara&lt;/h1&gt;
-&lt;p&gt;Untuk sementara kita coba codenya di komputer local.&lt;/p&gt;
-
-&lt;h2 id=&quot;install&quot;&gt;Install&lt;/h2&gt;
-&lt;p&gt;Untuk installasi cukup dengan mengeklone kode dan membuildnya dengan maven.&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/faoziaziz/IdiotBGT.git tutLabseni
-&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;tutLabseni/idiotBGT
-mvn &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt;:java &lt;span class=&quot;nt&quot;&gt;-Dexec&lt;/span&gt;.mainClass&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;org.labseni.App
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;referensi&quot;&gt;Referensi&lt;/h1&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.hascode.com/2016/06/playing-around-with-mqtt-and-java-with-moquette-and-eclipse-paho/&quot;&gt;Playing around MQTT&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Aziz Amerul Faozi</name></author><category term="Paho" /><category term="Maven" /><category term="Java" /><category term="IoT" /><category term="Heroku" /><category term="MQTT" /><summary type="html">Oke guys sekarang kita mencoba untuk menaruh server MQTT di heroku, walaupun sepertinya susah untuk mengakses port 1883 dari ITB tapi kita akan coba menggunakan perantara HTTP/HTTPS protokolnya untuk bisa men-subscribe dan post topik dari dashboard swing yang akan kita buat nanti. Arsitekturnya mungkin kita akan mencoba JSON untuk bisa dipakai mengakses ke server Moquette di heroku. Progres Sementara Untuk sementara kita coba codenya di komputer local. Install Untuk installasi cukup dengan mengeklone kode dan membuildnya dengan maven. git clone https://github.com/faoziaziz/IdiotBGT.git tutLabseni cd tutLabseni/idiotBGT mvn exec:java -Dexec.mainClass=org.labseni.App Referensi Playing around MQTT</summary></entry></feed>
+&lt;p&gt;Shadi kemudian menangis dan mengaku bersalah atas kejadian tadi.&lt;/p&gt;</content><author><name>Aziz Amerul Faozi</name></author><category term="Cermin" /><category term="Konduktor" /><summary type="html">Setelah pertemuan saat mengoprek, Shadi berkenalan dengan lelaki yang mengejutkan itu. “Aku Tristan.” “Tristan ? Aku Shadi.”, heran dengan nama lelaki itu yang mengaku sebagai Tristan. “Keren-gak nama ane? Mirip tokoh di novel Richard Wagner kan?” “Itu beneran namamu? “ “Iyalah, walaupun namaku beda sama di absensi kelas tadi. Tapi begitulah aku dipanggil. Biar nama asliku gak tercemar.” “Hmm” “Pourqui?” “Parce, ane sering bikin masalah, kalau nama asli ane ketahuan kan malu wkwkkwkw.”, Tristan ketawa, dan Shadi ikut tertawa. “Oh iya hari ini kita ada tutorial dengan instruktur-kan?” “Iye, di GKU-Barat lante 4.” Mereka berjalan dan masuk kelas kemudian instrukturnya juga masuk karena sudah waktunya masuk. Dengan belagak instrukturnya menunjukan betapa berkuasanya di kelas, dan dia meledek orang-orang cupu dikelas. Namun sayang Shadi yang duduk disebelahnya merasa sebel, hingga akhirnya dia menanyakan pertanyaan susah yang tidak bisa dijawab oleh instruktur. “Mengapa gelombang elektromagnet tidak bisa merambat di medium konduktor, padahal kalau kita bikin rangkaian pake konduktor?” “Instruktur bingung.” Kemudian Shadi meledek kembali instrukturnya sebagai balas dendam kesombongannya waktu itu. Instruktur marah dan memberikan dia kartu Kuning (Mirip Presiden yang dikasih kartu Kuning oleh anak BEM UI). Shadi kemudian sedih. “Jiwa engineer seperti cermin, dia akan memantulkan kesalahan engineer yang mengamati dari pengamatannya.”, Tristan berbicara pada Shadi. Shadi kemudian menangis dan mengaku bersalah atas kejadian tadi.</summary></entry></feed>

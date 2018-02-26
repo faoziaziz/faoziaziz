@@ -29,7 +29,11 @@ lalu install pipenv
 ```bash
 pipenv install
 ```
+jangan lupa untuk mengaktifkan virtual environtment supaya pendevelopan python dengan pip bisa berjalan dengan lancar, walaupun secara direktory saya cek sama tetapi run project pip di dalam virtual environtment lebih worthed karena terintegrasi dengan pipenvnye
 
+```bash
+ source /home/afaozi/.local/share/virtualenvs/faoziaziz-tlxp7l8x/bin/activate
+```
 kemudian coba kita masuk ke dalam virtual environment
 
 ```bash
