@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Un grand gourmand"
+date: 2018-2-27 15:17:46 +0700
+comments: true
+categories: 
+- Bahasa
+tags:
+- françasie
+excerpt_separator:  <!--more-->
+---
+
+1. Julie / habiter à Toulouse / le 3 mai
+- Julie habite à Toulouse depuis le 3 mai.
+2. nous / étudions à l’Alliance française / octobre.
+- nous etudiez à l’Alliance française octobre.
+3. Charlotte et Claire / louer un appartement à Paris / le 15 novembre
+- Ils lourent un appartement à Paris depuis le 15 novembre. 
+4. vous / étudier le français / le mois d’octobre
+- Vous étudient le français depuis le mois d’octobre.
+5. moi / travailler pour une agence de voyages / le printemps 
+- Je traveille pour une agence de voyages depuis le printemps.
+6. Barbara / sortir avec un copain français / juin dernier 
+- Barbara sortent avec un copain français depuis juin dernier. 
+7. toi / déjeuner au restaurant universitaire / janvier
+- Tu déjeunes au restaurant universitaire depuis janvier.
+
