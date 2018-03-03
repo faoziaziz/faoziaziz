@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Un grand gourmand#1"
+date: 2018-3-1 14:11:46 +0700
+comments: true
+categories: 
+- Bahasa
+tags:
+- françasie
+excerpt_separator:  <!--more-->
+---
+
+1. Luis et Carlos (mexicains / Puebla)
+- Luis et Carlos mexicains. Ils  de Puebla.
+2. nous (américains / San Francisco)
+- Nous sommes américains. 
+3. ces étudiants (indiens / New Delhi)
+4. ces étudiantes (suisses / Genève)
+5. vous (japonais / Tokyo)
+6. moi (canadien / Québec)
+7. toi (anglais / Londres)
+8. Boris (russe / Moscou)
+- Boris est russe. Elle vient de Moscou 

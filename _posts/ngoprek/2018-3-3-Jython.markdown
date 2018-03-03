@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Jython"
+date: 2018-3-3 11:47:00 +0700
+author: Aziz Amerul Faozi
+comments: true
+categories: 
+- TechneAndPraxis
+tags:
+- Python
+- Java
+- Jython
+- Swing
+excerpt_separator:  <!--more-->
+---
+
+Oke guys buat anda yang ingin melanjutkan Sanca Jawa sekarang kita coba untuk membuatnya dalam satu program bernama Jython. Install Jython pada fedora 27 anda, 
+
+```bash
+sudo dnf install jython
+```
+lalu masuk ke jython
+```
+jython
+```
+Lalu coba membuat frame
+```python
+>>> from javax.swing import JFrame
+>>> win = JFrame("Mencoba")
+>>> win.show()
+
+```
+lalu akan muncul window anda.
