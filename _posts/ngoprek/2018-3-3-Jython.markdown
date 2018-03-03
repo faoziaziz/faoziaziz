@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jython"
-date: 2018-3-3 11:47:00 +0700
+date: 2018-3-3 07:47:00 +0700
 author: Aziz Amerul Faozi
 comments: true
 categories: 
