@@ -293,6 +293,118 @@
   
   <article class="post-body">
     <h2 class="post-title">
+      <a href="/techneandpraxis/2018/03/03/Jython.html">
+        Jython
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">03 Mar 2018</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/TechneAndPraxis.html">
+          TechneAndPraxis
+        </a>
+      
+    
+  </span>
+</div>
+
+    
+      <p>Oke guys buat anda yang ingin melanjutkan Sanca Jawa sekarang kita coba untuk membuatnya dalam satu program bernama Jython. Install Jython pada fedora 27 anda,</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>dnf <span class="nb">install </span>jython
+</code></pre></div></div>
+<p>lalu masuk ke jython</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jython
+</code></pre></div></div>
+<p>Lalu coba membuat frame</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">javax.swing</span> <span class="kn">import</span> <span class="n">JFrame</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">win</span> <span class="o">=</span> <span class="n">JFrame</span><span class="p">(</span><span class="s">"Mencoba"</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">win</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+</code></pre></div></div>
+<p>lalu akan muncul window anda.</p>
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
+  
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="/bahasa/2018/03/01/Lecon16.html">
+        Un grand gourmand#1
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">01 Mar 2018</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/Bahasa.html">
+          Bahasa
+        </a>
+      
+    
+  </span>
+</div>
+
+    
+      <ol>
+  <li>Luis et Carlos (mexicains / Puebla)
+    <ul>
+      <li>Luis et Carlos mexicains. Ils  de Puebla.</li>
+    </ul>
+  </li>
+  <li>nous (américains / San Francisco)
+    <ul>
+      <li>Nous sommes américains.</li>
+    </ul>
+  </li>
+  <li>ces étudiants (indiens / New Delhi)</li>
+  <li>ces étudiantes (suisses / Genève)</li>
+  <li>vous (japonais / Tokyo)</li>
+  <li>moi (canadien / Québec)</li>
+  <li>toi (anglais / Londres)</li>
+  <li>Boris (russe / Moscou)
+    <ul>
+      <li>Boris est russe. Elle vient de Moscou</li>
+    </ul>
+  </li>
+</ol>
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
+  
+  <article class="post-body">
+    <h2 class="post-title">
       <a href="/blame/2018/02/27/Telco-Magazine.html">
         Telco Magazine
       </a>
@@ -860,123 +972,6 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 </code></pre></div></div>
 
 <p>pada bagian installed app, saya menambahkan code tertentu.</p>
-
-    
-
-    
-      
-      
-      
-
-      
-    
-  </article>
-  
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/techneandpraxis/2018/02/20/Django.html">
-        Django
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">20 Feb 2018</span>
-  <span class="post-categories">
-    
-      &bull;
-
-      
-      
-      
-
-      
-        <a href="/category/TechneAndPraxis.html">
-          TechneAndPraxis
-        </a>
-      
-    
-  </span>
-</div>
-
-    
-      <p>Oke, guys biar semakin parselmouth, marilah kita kembali mengoprek MVC (Model View Controller), setelah berhasil membuat situs mirip twitter dari ruby, tapi karena heroku tidak memberikan akses ke SendGrid dan Amazon W3, saya beralih membuat site, dengan framework Django, buat yang masih ingin paselmouth mungkin ini bisa menaikkan kemampuan anda di bidang per-sanca-an.</p>
-
-<p>Oke karena saya menggunakan Operating System Fedora, kita install dulu djangonya dengan perintah berikut.</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>dnf <span class="nb">install </span>python2-django
-</code></pre></div></div>
-<p>untuk mengetes bahwa django telah terinstall ke dalam library python,</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">python</span>
-
-<span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">django</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span> <span class="n">django</span><span class="o">.</span><span class="n">VERSION</span>
-</code></pre></div></div>
-<p>dalam komputer saya akan muncul berikut ini</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="s">u'final'</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
-</code></pre></div></div>
-<p>walaupun saya tidak tahu itu artinya apa tapi yang jelas library tersebut telah terinstall di komputer saya.</p>
-
-<p>Untuk memulai membuat web nya, setelah install library django tadi kita bisa memanggilnya dalam bash untuk membuat sebuah project web dengan perintah berikut ini</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>django-admin startproject azizridle
-</code></pre></div></div>
-<p>sekarang masuk ke direktory azizridle dan run servernya dengan perintah berikut</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>azizridle
-python manage.py runserver
-</code></pre></div></div>
-<p>lalu cek di localhost:8000, dengan web browser anda.</p>
-
-<h2 id="further">Further</h2>
-<ol>
-  <li><a href="http:/techneandpraxis/2018/02/21/Startapp.html">Startapp</a></li>
-  <li><a href="https://github.com/faoziaziz/azizridle">Github azizridle</a></li>
-</ol>
-
-
-    
-
-    
-      
-      
-      
-
-      
-    
-  </article>
-  
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/techneandpraxis/2018/02/16/Ulang-Tahun.html">
-        Ulang Tahun
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">16 Feb 2018</span>
-  <span class="post-categories">
-    
-      &bull;
-
-      
-      
-      
-
-      
-        <a href="/category/TechneAndPraxis.html">
-          TechneAndPraxis
-        </a>
-      
-    
-  </span>
-</div>
-
-    
-      <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pipenv <span class="nt">--three</span>
-pipenv <span class="nb">install
-</span>pipenv shell
-pip <span class="nb">install</span> <span class="nt">--user</span> pipenv
-</code></pre></div></div>
 
     
 
