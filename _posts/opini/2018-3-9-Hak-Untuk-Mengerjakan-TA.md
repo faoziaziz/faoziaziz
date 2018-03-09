@@ -3,6 +3,7 @@ layout: post
 title: "Hak untuk Mengerjakan TA"
 date: 2018-3-9 16:17:46 +0700
 comments: true
+published: false
 categories: 
 - Blame
 tags:
