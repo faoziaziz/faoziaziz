@@ -1,4 +1,257 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-12T06:28:19+07:00</updated><id>http://localhost:4000/</id><title type="html">CBGL</title><subtitle>Catatan biar gak lupa</subtitle><author><name>Aziz Faozi</name></author><entry><title type="html">Boire</title><link href="http://localhost:4000/bahasa/2018/03/12/Bois.html" rel="alternate" type="text/html" title="Boire" /><published>2018-03-12T06:17:46+07:00</published><updated>2018-03-12T06:17:46+07:00</updated><id>http://localhost:4000/bahasa/2018/03/12/Bois</id><content type="html" xml:base="http://localhost:4000/bahasa/2018/03/12/Bois.html">&lt;h1 id=&quot;le-verve-boire&quot;&gt;Le verve boire&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-29T00:40:32+07:00</updated><id>http://localhost:4000/</id><title type="html">CBGL</title><subtitle>Catatan biar gak lupa</subtitle><author><name>Aziz Faozi</name></author><entry><title type="html">Device Firmware Upgrade</title><link href="http://localhost:4000/techneandpraxis/2018/03/29/DFU-Device-Firmware-Upgrade.html" rel="alternate" type="text/html" title="Device Firmware Upgrade" /><published>2018-03-29T00:24:16+07:00</published><updated>2018-03-29T00:24:16+07:00</updated><id>http://localhost:4000/techneandpraxis/2018/03/29/DFU-Device-Firmware-Upgrade</id><content type="html" xml:base="http://localhost:4000/techneandpraxis/2018/03/29/DFU-Device-Firmware-Upgrade.html">&lt;p&gt;DFU = Device Firmware Upgrade, menjadi salah satu methode untuk mengupload data kedalam firmware. Lalu apa yang dimaksud firmware disini, firmware merupakan software yang di store kedalam perangkat Writable, volatile memory dengan perantara USB. Lalu kenapa dinamai Upgrade, jadi guys itu karena bisa melakukan overwrite pada perangkat firmware tersebut. Methode ini merupakan cara untuk mendownload (mengirim informasi ke perangkat dari host), dan mengupload (dari perangkat menuju host).&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;bmRequestType&lt;/th&gt;
+      &lt;th&gt;bRequest&lt;/th&gt;
+      &lt;th&gt;wValue&lt;/th&gt;
+      &lt;th&gt;wIndex&lt;/th&gt;
+      &lt;th&gt;wLength&lt;/th&gt;
+      &lt;th&gt;Data&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;00100001b&lt;/td&gt;
+      &lt;td&gt;DFU_DETACH&lt;/td&gt;
+      &lt;td&gt;wTimeout&lt;/td&gt;
+      &lt;td&gt;Interface&lt;/td&gt;
+      &lt;td&gt;Zero&lt;/td&gt;
+      &lt;td&gt;None&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;00100001b&lt;/td&gt;
+      &lt;td&gt;DFU_DNLOAD&lt;/td&gt;
+      &lt;td&gt;wBlockNum&lt;/td&gt;
+      &lt;td&gt;Interface&lt;/td&gt;
+      &lt;td&gt;Length&lt;/td&gt;
+      &lt;td&gt;Firmware&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10100001b&lt;/td&gt;
+      &lt;td&gt;DFU_UPLOAD&lt;/td&gt;
+      &lt;td&gt;Zero&lt;/td&gt;
+      &lt;td&gt;Interface&lt;/td&gt;
+      &lt;td&gt;Length&lt;/td&gt;
+      &lt;td&gt;Firmware&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10100001b&lt;/td&gt;
+      &lt;td&gt;DFU_GETSTATUS&lt;/td&gt;
+      &lt;td&gt;Zero&lt;/td&gt;
+      &lt;td&gt;Interface&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;Status&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;00100001b&lt;/td&gt;
+      &lt;td&gt;DFU_CLRSTATUS&lt;/td&gt;
+      &lt;td&gt;Zero&lt;/td&gt;
+      &lt;td&gt;Interface&lt;/td&gt;
+      &lt;td&gt;Zero&lt;/td&gt;
+      &lt;td&gt;None&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10100001b&lt;/td&gt;
+      &lt;td&gt;DFU_GETSTATE&lt;/td&gt;
+      &lt;td&gt;Zero&lt;/td&gt;
+      &lt;td&gt;Interface&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;Status&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;00100001b&lt;/td&gt;
+      &lt;td&gt;DFU_ABORT&lt;/td&gt;
+      &lt;td&gt;Zero&lt;/td&gt;
+      &lt;td&gt;Interface&lt;/td&gt;
+      &lt;td&gt;Zero&lt;/td&gt;
+      &lt;td&gt;None&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Diatas adalah table DFU Class Spesific Request&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;bRequest&lt;/td&gt;
+      &lt;td&gt;Value&lt;/td&gt;
+      &lt;td&gt;Protocol&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;DFU_DETACH&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;DFU_DNLOAD&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;DFU_UPLOAD&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;DFU_GETSTATUS&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;1*, 2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;DFU_CLRSTATUS&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;DFU_GETSTATUE&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;1*,2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;DFU_ABORT&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;* artinya optional&lt;/p&gt;</content><author><name>Aziz Amerul Faozi</name></author><category term="TA" /><summary type="html">DFU = Device Firmware Upgrade, menjadi salah satu methode untuk mengupload data kedalam firmware. Lalu apa yang dimaksud firmware disini, firmware merupakan software yang di store kedalam perangkat Writable, volatile memory dengan perantara USB. Lalu kenapa dinamai Upgrade, jadi guys itu karena bisa melakukan overwrite pada perangkat firmware tersebut. Methode ini merupakan cara untuk mendownload (mengirim informasi ke perangkat dari host), dan mengupload (dari perangkat menuju host). bmRequestType bRequest wValue wIndex wLength Data 00100001b DFU_DETACH wTimeout Interface Zero None 00100001b DFU_DNLOAD wBlockNum Interface Length Firmware 10100001b DFU_UPLOAD Zero Interface Length Firmware 10100001b DFU_GETSTATUS Zero Interface 6 Status 00100001b DFU_CLRSTATUS Zero Interface Zero None 10100001b DFU_GETSTATE Zero Interface 1 Status 00100001b DFU_ABORT Zero Interface Zero None Diatas adalah table DFU Class Spesific Request bRequest Value Protocol DFU_DETACH 0 1 DFU_DNLOAD 1 2 DFU_UPLOAD 2 2 DFU_GETSTATUS 3 1*, 2 DFU_CLRSTATUS 4 2 DFU_GETSTATUE 5 1*,2 DFU_ABORT 6 2 * artinya optional</summary></entry><entry><title type="html">Prens</title><link href="http://localhost:4000/bahasa/2018/03/24/Prends.html" rel="alternate" type="text/html" title="Prens" /><published>2018-03-24T23:07:46+07:00</published><updated>2018-03-24T23:07:46+07:00</updated><id>http://localhost:4000/bahasa/2018/03/24/Prends</id><content type="html" xml:base="http://localhost:4000/bahasa/2018/03/24/Prends.html">&lt;p&gt;Oke guys, prendre itu artinya njiot, dan mettre artinya ndelah&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;infinitive&lt;/th&gt;
+      &lt;th&gt;prendre&lt;/th&gt;
+      &lt;th&gt;mettre&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;present&lt;/td&gt;
+      &lt;td&gt;je prends&lt;/td&gt;
+      &lt;td&gt;je mets&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;tu prends&lt;/td&gt;
+      &lt;td&gt;tu mets&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;il/elle/on prend&lt;/td&gt;
+      &lt;td&gt;il/elle/on met&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;nous prenons&lt;/td&gt;
+      &lt;td&gt;nous mettons&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;vous prenez&lt;/td&gt;
+      &lt;td&gt;vous mettez&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;ils/elles prennent&lt;/td&gt;
+      &lt;td&gt;ils/elles mettent&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;passé composé&lt;/td&gt;
+      &lt;td&gt;j’ai pris&lt;/td&gt;
+      &lt;td&gt;j’ai mis&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;études-à-létranger&quot;&gt;Études à l’étranger&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;li&gt;Tom est à Québec.
+    &lt;ul&gt;
+      &lt;li&gt;Il apprend la françasie.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Nous sommes à Londres.
+    &lt;ul&gt;
+      &lt;li&gt;Nous apprenons la françasie.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Eva est à Bogota.
+    &lt;ul&gt;
+      &lt;li&gt;Elle apprend l’espangol.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Je suis à Madrid.
+    &lt;ul&gt;
+      &lt;li&gt;Je apprends l’espagnol.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Vous êtes à Bordeaux.
+    &lt;ul&gt;
+      &lt;li&gt;Vous apprez la françasie.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Tu es à Mexico.
+    &lt;ul&gt;
+      &lt;li&gt;Tu apprends le mexicaine&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Raphaël est à Chicago.
+    &lt;ul&gt;
+      &lt;li&gt;Il apprend la anglaise.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Mes cousins sont à Baltimore.
+    &lt;ul&gt;
+      &lt;li&gt;Ils apprennent la anglaise.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Aziz Faozi</name></author><category term="françasie" /><summary type="html">Oke guys, prendre itu artinya njiot, dan mettre artinya ndelah infinitive prendre mettre present je prends je mets   tu prends tu mets   il/elle/on prend il/elle/on met   nous prenons nous mettons   vous prenez vous mettez   ils/elles prennent ils/elles mettent passé composé j’ai pris j’ai mis Études à l’étranger Tom est à Québec. Il apprend la françasie. Nous sommes à Londres. Nous apprenons la françasie. Eva est à Bogota. Elle apprend l’espangol. Je suis à Madrid. Je apprends l’espagnol. Vous êtes à Bordeaux. Vous apprez la françasie. Tu es à Mexico. Tu apprends le mexicaine Raphaël est à Chicago. Il apprend la anglaise. Mes cousins sont à Baltimore. Ils apprennent la anglaise.</summary></entry><entry><title type="html">Telekomunikasi</title><link href="http://localhost:4000/filsafat/2018/03/24/Telekomunikasi.html" rel="alternate" type="text/html" title="Telekomunikasi" /><published>2018-03-24T04:01:00+07:00</published><updated>2018-03-24T04:01:00+07:00</updated><id>http://localhost:4000/filsafat/2018/03/24/Telekomunikasi</id><content type="html" xml:base="http://localhost:4000/filsafat/2018/03/24/Telekomunikasi.html">&lt;p&gt;Akh, bukankah Heidegger pernah mengungkapkan bahwa metafisika merupakan proses
+kelupaan tentang ada. Lalu kalau kita membahas telekomunikasi tentang ke-apaan-nya
+mungkin juga salah satu manifestasi kelupaan ke-Ada-an dalam telekomunikasi itu
+sendiri. Lalu mengampa ini dibahas? Iya mungkin cukup menarik untuk orang yang
+ingin melanjutkan di jurusan ini. Sekalian promosi juga sih, (Akhzeeiq).&lt;/p&gt;
+
+&lt;p&gt;Oke guys masih bersama saya dalam acara kelupaan akan telekomunikasi atau dalam
+bahasa Heideggerian-nya, &lt;em&gt;Seinsvergessenheit Telekomunikation&lt;/em&gt;. Lalu mengapa kita
+lupakan dulu ke-Ada-an tentang telekomunikasi? Oke guys, alasannya cukup simple, yaitu
+untuk mendefinisikan Telekomunikation itu sendiri.&lt;/p&gt;
+
+&lt;p&gt;Buat anda yang hidupnya mainstream, dan tidak berkembang, mungkin anda mengira
+elektronika sekedar tentang tegangan atau arus. Akh, buat anda yang kurang hipster
+dari kehidupan mending anda masuk jurusan Elektro atau Informatika saja (Azheeiq
+profokatif). Jadi apa bedanya antara Elektro, Power sama Telekomunikation, mungkin
+harus bikin tabel yah guys biar rada keren.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Diskriminasi&lt;/th&gt;
+      &lt;th&gt;Elektro&lt;/th&gt;
+      &lt;th&gt;Power&lt;/th&gt;
+      &lt;th&gt;Telekomunikation&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Power&lt;/td&gt;
+      &lt;td&gt;Campuran&lt;/td&gt;
+      &lt;td&gt;Tegangan Tinggi&lt;/td&gt;
+      &lt;td&gt;Tegangan Rendah&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Frequensi&lt;/td&gt;
+      &lt;td&gt;Campuran&lt;/td&gt;
+      &lt;td&gt;Frequensi Rendah&lt;/td&gt;
+      &lt;td&gt;Frequensi Tinggi&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>Aziz Amerul Faozi</name></author><category term="Telekomunikasi" /><category term="Heidegger" /><summary type="html">Akh, bukankah Heidegger pernah mengungkapkan bahwa metafisika merupakan proses kelupaan tentang ada. Lalu kalau kita membahas telekomunikasi tentang ke-apaan-nya mungkin juga salah satu manifestasi kelupaan ke-Ada-an dalam telekomunikasi itu sendiri. Lalu mengampa ini dibahas? Iya mungkin cukup menarik untuk orang yang ingin melanjutkan di jurusan ini. Sekalian promosi juga sih, (Akhzeeiq). Oke guys masih bersama saya dalam acara kelupaan akan telekomunikasi atau dalam bahasa Heideggerian-nya, Seinsvergessenheit Telekomunikation. Lalu mengapa kita lupakan dulu ke-Ada-an tentang telekomunikasi? Oke guys, alasannya cukup simple, yaitu untuk mendefinisikan Telekomunikation itu sendiri. Buat anda yang hidupnya mainstream, dan tidak berkembang, mungkin anda mengira elektronika sekedar tentang tegangan atau arus. Akh, buat anda yang kurang hipster dari kehidupan mending anda masuk jurusan Elektro atau Informatika saja (Azheeiq profokatif). Jadi apa bedanya antara Elektro, Power sama Telekomunikation, mungkin harus bikin tabel yah guys biar rada keren. Diskriminasi Elektro Power Telekomunikation Power Campuran Tegangan Tinggi Tegangan Rendah Frequensi Campuran Frequensi Rendah Frequensi Tinggi</summary></entry><entry><title type="html">l’amour précède l’essence</title><link href="http://localhost:4000/ngaco/2018/03/15/l'amour-pr%C3%A9c%C3%A8de-l'essence.html" rel="alternate" type="text/html" title="l'amour précède l'essence" /><published>2018-03-15T09:07:00+07:00</published><updated>2018-03-15T09:07:00+07:00</updated><id>http://localhost:4000/ngaco/2018/03/15/l'amour-pr%C3%A9c%C3%A8de-l'essence</id><content type="html" xml:base="http://localhost:4000/ngaco/2018/03/15/l'amour-pr%C3%A9c%C3%A8de-l'essence.html">&lt;p&gt;L’amour précède l’essence, cinta mendahului essensi, mungkin begitulah alasan si Cowo tidak berhubungan badan dengan si Cewe dalam salah satu adegan film tersebut.&lt;/p&gt;</content><author><name>Aziz Amerul Faozi</name></author><category term="Resume" /><summary type="html">L’amour précède l’essence, cinta mendahului essensi, mungkin begitulah alasan si Cowo tidak berhubungan badan dengan si Cewe dalam salah satu adegan film tersebut.</summary></entry><entry><title type="html">Boire</title><link href="http://localhost:4000/bahasa/2018/03/12/Bois.html" rel="alternate" type="text/html" title="Boire" /><published>2018-03-12T06:17:46+07:00</published><updated>2018-03-12T06:17:46+07:00</updated><id>http://localhost:4000/bahasa/2018/03/12/Bois</id><content type="html" xml:base="http://localhost:4000/bahasa/2018/03/12/Bois.html">&lt;h1 id=&quot;le-verve-boire&quot;&gt;Le verve boire&lt;/h1&gt;
 
 &lt;p&gt;boire artinya ngombe guys, ini table penggunaan dalam penggunaan verba boire&lt;/p&gt;
 
@@ -178,101 +431,4 @@
       &lt;li&gt;Tu déjeunes au restaurant universitaire depuis janvier.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Aziz Faozi</name></author><category term="françasie" /><summary type="html">Julie / habiter à Toulouse / le 3 mai Julie habite à Toulouse depuis le 3 mai. nous / étudions à l’Alliance française / octobre. nous etudiez à l’Alliance française octobre. Charlotte et Claire / louer un appartement à Paris / le 15 novembre Ils lourent un appartement à Paris depuis le 15 novembre. vous / étudier le français / le mois d’octobre Vous étudient le français depuis le mois d’octobre. moi / travailler pour une agence de voyages / le printemps Je traveille pour une agence de voyages depuis le printemps. Barbara / sortir avec un copain français / juin dernier Barbara sortent avec un copain français depuis juin dernier. toi / déjeuner au restaurant universitaire / janvier Tu déjeunes au restaurant universitaire depuis janvier.</summary></entry><entry><title type="html">Souvenir de vacances</title><link href="http://localhost:4000/bahasa/2018/02/26/Souvenirs-de-vacances.html" rel="alternate" type="text/html" title="Souvenir de vacances" /><published>2018-02-26T01:31:46+07:00</published><updated>2018-02-26T01:31:46+07:00</updated><id>http://localhost:4000/bahasa/2018/02/26/Souvenirs-de-vacances</id><content type="html" xml:base="http://localhost:4000/bahasa/2018/02/26/Souvenirs-de-vacances.html">&lt;p&gt;Mencoba melanjutkan bahasa prancis bab ke 15 bukunnya Jean Paul Vallete.&lt;/p&gt;
-
-&lt;h3 id=&quot;subbab-5&quot;&gt;Subbab 5&lt;/h3&gt;
-&lt;p&gt;À la mer ou à la montagne?&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Élise a fait un voyage au Colorado.
-    &lt;ul&gt;
-      &lt;li&gt;Elle est allée à la montagne.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Vous avez nagé dans l’océan Atlantique.
-    &lt;ul&gt;
-      &lt;li&gt;Vous êtes allées à la mer.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Tu as passé une semaine sur la Riviera.
-    &lt;ul&gt;
-      &lt;li&gt;Je suis allée à la mer.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Nous avons photographié le Mont Blanc.
-    &lt;ul&gt;
-      &lt;li&gt;Nous sommes allées à la montagne.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Ma copine a fait du parapente (paragliding).
-    &lt;ul&gt;
-      &lt;li&gt;Elle a allée à la montagne.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Charlotte et Élodie ont passé les vacances à Tahiti.
-    &lt;ul&gt;
-      &lt;li&gt;Elles allées à la mer.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;J’ai fait du VTT dans les Alpes.
-    &lt;ul&gt;
-      &lt;li&gt;Tu es allée à la montagne.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Matteo a visité le Népal.
-    &lt;ul&gt;
-      &lt;li&gt;Il est allée à la montagne.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Aziz Faozi</name></author><category term="françasie" /><summary type="html">Mencoba melanjutkan bahasa prancis bab ke 15 bukunnya Jean Paul Vallete. Subbab 5 À la mer ou à la montagne? Élise a fait un voyage au Colorado. Elle est allée à la montagne. Vous avez nagé dans l’océan Atlantique. Vous êtes allées à la mer. Tu as passé une semaine sur la Riviera. Je suis allée à la mer. Nous avons photographié le Mont Blanc. Nous sommes allées à la montagne. Ma copine a fait du parapente (paragliding). Elle a allée à la montagne. Charlotte et Élodie ont passé les vacances à Tahiti. Elles allées à la mer. J’ai fait du VTT dans les Alpes. Tu es allée à la montagne. Matteo a visité le Népal. Il est allée à la montagne.</summary></entry><entry><title type="html">Django Python lanjutan</title><link href="http://localhost:4000/techneandpraxis/2018/02/25/Django-Python-lanjutan.html" rel="alternate" type="text/html" title="Django Python lanjutan" /><published>2018-02-25T22:46:00+07:00</published><updated>2018-02-25T22:46:00+07:00</updated><id>http://localhost:4000/techneandpraxis/2018/02/25/Django-Python-lanjutan</id><content type="html" xml:base="http://localhost:4000/techneandpraxis/2018/02/25/Django-Python-lanjutan.html">&lt;p&gt;Oke guys setelah menginstall django admin di &lt;a href=&quot;http:/techneandpraxis/2018/02/20/Django.html&quot;&gt;Django&lt;/a&gt; sekarang kita mencoba untuk memperbaiki file untuk bisa di hosting dengan heroku. Kita buat project-nya dahulu dengan template dari heroku dengan perintah berikut ini, project tersebut saya beri nama faoziaziz.&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;django-admin.py startproject &lt;span class=&quot;nt&quot;&gt;--template&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;https://github.com/heroku/heroku-django-template/archive/master.zip &lt;span class=&quot;nt&quot;&gt;--name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Procfile faoziaziz
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;lalu masuk kedalam direktory faoziaziz&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;faoziaziz
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;lalu install pipenv&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pipenv &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;jangan lupa untuk mengaktifkan virtual environtment supaya pendevelopan python dengan pip bisa berjalan dengan lancar, walaupun secara direktory saya cek sama tetapi run project pip di dalam virtual environtment lebih worthed karena terintegrasi dengan pipenvnye&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt; /home/afaozi/.local/share/virtualenvs/faoziaziz-tlxp7l8x/bin/activate
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;kemudian coba kita masuk ke dalam virtual environment&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pipenv shell
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;kemudian kita coba run servernya dengan perintah&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku &lt;span class=&quot;nb&quot;&gt;local&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;cek ke dalam webbrowser dengan alamat localhost:5000,&lt;/p&gt;
-
-&lt;p&gt;jika anda ingin menguploadnya ke heroku server anda&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku create faoziaziz
-heroku git:remote &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; faoziaziz
-git init &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
-git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Push ke heroku&quot;&lt;/span&gt;
-git push heroku master
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;lalu coba cek ke alamat https://faoziaziz.herokuapp.com, gunakan alamat kesukaan anda untuk bisa dipakai sesuai kebutuhan.&lt;/p&gt;</content><author><name>Aziz Amerul Faozi</name></author><category term="Python" /><category term="Django" /><summary type="html">Oke guys setelah menginstall django admin di Django sekarang kita mencoba untuk memperbaiki file untuk bisa di hosting dengan heroku. Kita buat project-nya dahulu dengan template dari heroku dengan perintah berikut ini, project tersebut saya beri nama faoziaziz. django-admin.py startproject --template=https://github.com/heroku/heroku-django-template/archive/master.zip --name=Procfile faoziaziz lalu masuk kedalam direktory faoziaziz cd faoziaziz lalu install pipenv pipenv install jangan lupa untuk mengaktifkan virtual environtment supaya pendevelopan python dengan pip bisa berjalan dengan lancar, walaupun secara direktory saya cek sama tetapi run project pip di dalam virtual environtment lebih worthed karena terintegrasi dengan pipenvnye source /home/afaozi/.local/share/virtualenvs/faoziaziz-tlxp7l8x/bin/activate kemudian coba kita masuk ke dalam virtual environment pipenv shell kemudian kita coba run servernya dengan perintah heroku local cek ke dalam webbrowser dengan alamat localhost:5000, jika anda ingin menguploadnya ke heroku server anda heroku create faoziaziz heroku git:remote -a faoziaziz git init . git commit -m &quot;Push ke heroku&quot; git push heroku master lalu coba cek ke alamat https://faoziaziz.herokuapp.com, gunakan alamat kesukaan anda untuk bisa dipakai sesuai kebutuhan.</summary></entry><entry><title type="html">NBiot GMSK</title><link href="http://localhost:4000/techneandpraxis/2018/02/22/NBiot-GMSK.html" rel="alternate" type="text/html" title="NBiot GMSK" /><published>2018-02-22T13:39:00+07:00</published><updated>2018-02-22T13:39:00+07:00</updated><id>http://localhost:4000/techneandpraxis/2018/02/22/NBiot-GMSK</id><content type="html" xml:base="http://localhost:4000/techneandpraxis/2018/02/22/NBiot-GMSK.html">&lt;p&gt;&lt;em&gt;“Mengapa nb iot menggunakan modulasi GMSK?”&lt;/em&gt; pertanyaan itu menjadi penting ketika OFDM hampir merajalela di dunia pertelekomunikasian. Walaupun sebenarnya kita juga bisa menggunakna GMSK-OFDM untuk mengoptimalkannya, karena memang OFDM tidaklah mirip dengan teknik modulasi, dan lebih cenderung mirip dengan teknik Multiplexing. OFDM memutar spectrum frequensi agar sinyal tidak berbenturan walau pada titik yang sama, kalau secara geometri ofdm akan membentu sinyal yang cenderung 3D kalau dilihat dengan Spectrum Analizer yang mampu mengukur dalam kerangka 3 Dimensi.&lt;/p&gt;
-
-&lt;p&gt;Lalu mengapa GMSK masih digunakan, yang jelas pada bagian modulator, Hilbert transform akan merubah bentuk sinyal yang kotak-kotak akan lebih cenderung bisa sinussoid, mengingat ketika kita mencoba membuat sinyal yang semakin kotak maka ada kecendrungan untuk melebarkan pita di domain frekuensi. Hilber transform ini akan lebih mengefisiensikan spektrum frekuensi namun memberikan dampak pada bentuk sinyal di domain waktu terlihat seperti sinusoid.&lt;/p&gt;
-
-&lt;p&gt;IoT membutuhkan transmini yang cukup cepat tapi dengan bandwith yang terbatas. Hal ini dikarenakan device paling hanya mengirimkan data sensor yang jika diukur palingan tidak menjapai kecepatan 1 Kbps. GMSK cukup bagus untuk efisiensi spektrum, inilah kenapa NBIoT memilih teknik modulasi ini ketimbang QAM yang notabennya bisa mengirimkan jumlah data yang lebih banyak.&lt;/p&gt;</content><author><name>Aziz Amerul Faozi</name></author><category term="Modulasi" /><category term="Iot" /><category term="OFDM" /><summary type="html">“Mengapa nb iot menggunakan modulasi GMSK?” pertanyaan itu menjadi penting ketika OFDM hampir merajalela di dunia pertelekomunikasian. Walaupun sebenarnya kita juga bisa menggunakna GMSK-OFDM untuk mengoptimalkannya, karena memang OFDM tidaklah mirip dengan teknik modulasi, dan lebih cenderung mirip dengan teknik Multiplexing. OFDM memutar spectrum frequensi agar sinyal tidak berbenturan walau pada titik yang sama, kalau secara geometri ofdm akan membentu sinyal yang cenderung 3D kalau dilihat dengan Spectrum Analizer yang mampu mengukur dalam kerangka 3 Dimensi. Lalu mengapa GMSK masih digunakan, yang jelas pada bagian modulator, Hilbert transform akan merubah bentuk sinyal yang kotak-kotak akan lebih cenderung bisa sinussoid, mengingat ketika kita mencoba membuat sinyal yang semakin kotak maka ada kecendrungan untuk melebarkan pita di domain frekuensi. Hilber transform ini akan lebih mengefisiensikan spektrum frekuensi namun memberikan dampak pada bentuk sinyal di domain waktu terlihat seperti sinusoid. IoT membutuhkan transmini yang cukup cepat tapi dengan bandwith yang terbatas. Hal ini dikarenakan device paling hanya mengirimkan data sensor yang jika diukur palingan tidak menjapai kecepatan 1 Kbps. GMSK cukup bagus untuk efisiensi spektrum, inilah kenapa NBIoT memilih teknik modulasi ini ketimbang QAM yang notabennya bisa mengirimkan jumlah data yang lebih banyak.</summary></entry><entry><title type="html">Perang dengan Teks</title><link href="http://localhost:4000/filsafat/2018/02/22/Perang-dengan-Teks.html" rel="alternate" type="text/html" title="Perang dengan Teks" /><published>2018-02-22T11:18:00+07:00</published><updated>2018-02-22T11:18:00+07:00</updated><id>http://localhost:4000/filsafat/2018/02/22/Perang-dengan-Teks</id><content type="html" xml:base="http://localhost:4000/filsafat/2018/02/22/Perang-dengan-Teks.html">&lt;p&gt;Nietzsche pernah berujar bahwa penafsir dikategorikan menjadi tiga golongan, tafsir histroris, tafsir trans historis, dan tafsir melampaui (itu kayaknya kalau saya gak lupa). Jadi &lt;em&gt;“sepenting apa itu penafsiran?”&lt;/em&gt;, jika ditanya pada para eksistensialis, maka paling jawabannya, &lt;em&gt;“Dia penting dan tidak penting sekaligus, beyond penting dan tidak penting.”&lt;/em&gt;. Tapi sebenernya tulisan ini ditujukan supaya para adik tingkat jurusan saya bisa lebih semangat untuk membaca buku, mengingat logo mit bagian kanannya ada gambar orang yang membaca buku di kiri ada orang lagi megang martil, dan ditengah ada buku tulisan sains dan seni, dan dibawah tengah ada tulisan Mens et Manus, yang artinya pikiran dan tangan.&lt;/p&gt;
-
-&lt;p&gt;Teks memang berbahaya, dia memiliki kekuatan untuk membentuk pemikiran sang pembaca, itu sih kata Jacques Derrida dalam &lt;em&gt;“Act of Literature”&lt;/em&gt;. Kehidupan, kuliah dan sebagainya sejatinya adalah sebuah teks, jika ditafsirkan dalam kerangka sang kutubuku, dan bukankah &lt;em&gt;“Alquran qodim wahyu minulyo tanpo tinulis iso diwoco”&lt;/em&gt;, pada nyanyian gusdur. Akh, bukan saya sedang mengatakan untuk menjelaskan bahwa sama saja orang yang membaca buku atau tidak karena kehidupan yang sejatinya adalah teks. Tapi keunikan dari setiap teks yang kita interpretasikan memang lain-lain, dan para penulis besar dalam bidang engineering juga banyak yang menulisnya dalam bentuk naskah literasi dalam bentuk teksbook.&lt;/p&gt;
-
-&lt;p&gt;Coba bayangkan ketika kita mencoba untuk membangun sebuah perangkat sistem komunikasi avionic untuk militer yang bisa berkisar sampai ratusan juta. Bukankah dengan membaca teks buku, yang bisa didownload di gen.lib.rus.ec secara gratis akan bisa memberikan pengalaman pada kita bagaimana membangun sistem semahal itu tanpa harus mengeluarkan uang ratusan juta.&lt;/p&gt;
-
-&lt;p&gt;Lihatlah para engineer besar yang dikenal didunia, pasti mereka menulis buku, dan membaca buku juga. Walau sebenarnya saya menyalahi aturan hermenutika dari Derrida ini. Tapi, kreatifitas yang dimiliki oleh engineer perlu dibentuk dalam pikiran mereka agar nanti bisa diintrepretasikan dalam bentuk karya seni (karya engineering), dan membentuk pola pikir bisa dilakukan dengan membaca teks (karena teks memiliki hak otonom untuk membentuk pola pikir pembaca.)&lt;/p&gt;
-
-&lt;p&gt;Ada dalam teks, akan memberikan kecemasan dalam teks tersebut, dan dalam kerangka reflektif kita akan memiliki kesadaran tentang teks tersebut. Hingga nanti kita bisa mengintrepretasikannya dalam bentuk karya (baik bacot, tulisan, atau produk). Membaca terkadang memberikan kita nafsu aneh yang akan mengaburkan teks tersebut, tapi seperti kata Deleuze, mendekonstruksi teks dan mengulanginya lagi akan memberikan pemahaman yang lebih matang tentang teks tersebut.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;“Ada-disana bisa menjadi semacam methode untuk mencapai kebebasan transendent”&lt;/em&gt; Sartre, dan dengan kebebasan transendent itu kita akan membangun masa depan, dan bukankah masadepan ditentukan oleh eksistensi kita? Membaca teks (&lt;em&gt;verstehen&lt;/em&gt;) berarti berada dalam teks dan mengijinkan teks untuk mengotonomkan diri kita untuk membangun masa depan melalui kebebasan diri kita dalam teks tersebut.&lt;/p&gt;</content><author><name>Aziz Amerul Faozi</name></author><category term="Derrida" /><category term="Deleuze" /><category term="Hermeneutika" /><summary type="html">Nietzsche pernah berujar bahwa penafsir dikategorikan menjadi tiga golongan, tafsir histroris, tafsir trans historis, dan tafsir melampaui (itu kayaknya kalau saya gak lupa). Jadi “sepenting apa itu penafsiran?”, jika ditanya pada para eksistensialis, maka paling jawabannya, “Dia penting dan tidak penting sekaligus, beyond penting dan tidak penting.”. Tapi sebenernya tulisan ini ditujukan supaya para adik tingkat jurusan saya bisa lebih semangat untuk membaca buku, mengingat logo mit bagian kanannya ada gambar orang yang membaca buku di kiri ada orang lagi megang martil, dan ditengah ada buku tulisan sains dan seni, dan dibawah tengah ada tulisan Mens et Manus, yang artinya pikiran dan tangan. Teks memang berbahaya, dia memiliki kekuatan untuk membentuk pemikiran sang pembaca, itu sih kata Jacques Derrida dalam “Act of Literature”. Kehidupan, kuliah dan sebagainya sejatinya adalah sebuah teks, jika ditafsirkan dalam kerangka sang kutubuku, dan bukankah “Alquran qodim wahyu minulyo tanpo tinulis iso diwoco”, pada nyanyian gusdur. Akh, bukan saya sedang mengatakan untuk menjelaskan bahwa sama saja orang yang membaca buku atau tidak karena kehidupan yang sejatinya adalah teks. Tapi keunikan dari setiap teks yang kita interpretasikan memang lain-lain, dan para penulis besar dalam bidang engineering juga banyak yang menulisnya dalam bentuk naskah literasi dalam bentuk teksbook. Coba bayangkan ketika kita mencoba untuk membangun sebuah perangkat sistem komunikasi avionic untuk militer yang bisa berkisar sampai ratusan juta. Bukankah dengan membaca teks buku, yang bisa didownload di gen.lib.rus.ec secara gratis akan bisa memberikan pengalaman pada kita bagaimana membangun sistem semahal itu tanpa harus mengeluarkan uang ratusan juta. Lihatlah para engineer besar yang dikenal didunia, pasti mereka menulis buku, dan membaca buku juga. Walau sebenarnya saya menyalahi aturan hermenutika dari Derrida ini. Tapi, kreatifitas yang dimiliki oleh engineer perlu dibentuk dalam pikiran mereka agar nanti bisa diintrepretasikan dalam bentuk karya seni (karya engineering), dan membentuk pola pikir bisa dilakukan dengan membaca teks (karena teks memiliki hak otonom untuk membentuk pola pikir pembaca.) Ada dalam teks, akan memberikan kecemasan dalam teks tersebut, dan dalam kerangka reflektif kita akan memiliki kesadaran tentang teks tersebut. Hingga nanti kita bisa mengintrepretasikannya dalam bentuk karya (baik bacot, tulisan, atau produk). Membaca terkadang memberikan kita nafsu aneh yang akan mengaburkan teks tersebut, tapi seperti kata Deleuze, mendekonstruksi teks dan mengulanginya lagi akan memberikan pemahaman yang lebih matang tentang teks tersebut. “Ada-disana bisa menjadi semacam methode untuk mencapai kebebasan transendent” Sartre, dan dengan kebebasan transendent itu kita akan membangun masa depan, dan bukankah masadepan ditentukan oleh eksistensi kita? Membaca teks (verstehen) berarti berada dalam teks dan mengijinkan teks untuk mengotonomkan diri kita untuk membangun masa depan melalui kebebasan diri kita dalam teks tersebut.</summary></entry></feed>
+&lt;/ol&gt;</content><author><name>Aziz Faozi</name></author><category term="françasie" /><summary type="html">Julie / habiter à Toulouse / le 3 mai Julie habite à Toulouse depuis le 3 mai. nous / étudions à l’Alliance française / octobre. nous etudiez à l’Alliance française octobre. Charlotte et Claire / louer un appartement à Paris / le 15 novembre Ils lourent un appartement à Paris depuis le 15 novembre. vous / étudier le français / le mois d’octobre Vous étudient le français depuis le mois d’octobre. moi / travailler pour une agence de voyages / le printemps Je traveille pour une agence de voyages depuis le printemps. Barbara / sortir avec un copain français / juin dernier Barbara sortent avec un copain français depuis juin dernier. toi / déjeuner au restaurant universitaire / janvier Tu déjeunes au restaurant universitaire depuis janvier.</summary></entry></feed>

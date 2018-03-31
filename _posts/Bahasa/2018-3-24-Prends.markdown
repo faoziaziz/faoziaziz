@@ -1,0 +1,41 @@
+---
+layout: post
+title: "Prens"
+date: 2018-3-24 23:07:46 +0700
+comments: true
+categories:
+- Bahasa
+tags:
+- françasie
+excerpt_separator:  <!--more-->
+---
+Oke guys, prendre itu artinya njiot, dan mettre artinya ndelah
+
+|infinitive|prendre|mettre|
+|----------|-------|------|
+|present   |je prends| je mets|
+|	   |tu prends| tu mets|
+|          |il/elle/on prend|il/elle/on met|
+|	   |nous prenons|nous mettons|
+|	   |vous prenez | vous mettez|
+|	   |ils/elles prennent  | ils/elles mettent|
+|----------|-----------|--------|
+|passé composé| j'ai pris| j'ai mis|
+
+# Études à l’étranger
+1. Tom est à Québec.
+- Il apprend la françasie.
+2. Nous sommes à Londres.
+- Nous apprenons la françasie.
+3. Eva est à Bogota.
+- Elle apprend l'espangol.
+4. Je suis à Madrid.
+- Je apprends l'espagnol.
+5. Vous êtes à Bordeaux.
+- Vous apprez la françasie.
+6. Tu es à Mexico.
+- Tu apprends le mexicaine
+7. Raphaël est à Chicago.
+- Il apprend la anglaise.
+8. Mes cousins sont à Baltimore.
+- Ils apprennent la anglaise.

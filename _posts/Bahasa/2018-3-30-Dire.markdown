@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Dire"
+date: 2018-3-30 23:07:46 +0700
+comments: true
+categories:
+- Bahasa
+tags:
+- françasie
+excerpt_separator:  <!--more-->
+---
+
+Oke guys dire artinya ngebacot(mirip parle yah), lire artinya mambaca, écrire artinya nulis.
+
+|infinitive|dire|lire|écrire|
+|----------|------|----|------|
+|present   |Je dis que j'ai raison.|Je lis un magazine.| J' écri une lettre.| 
