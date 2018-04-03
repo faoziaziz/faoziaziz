@@ -274,4 +274,5 @@ lalu akan muncul frame seperti dibawah ini.
 
 # Referensi
 1. [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) 
+2. [Repo JavPlotMan](https://github.com/faoziaziz/JavPlotMan)
 
