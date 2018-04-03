@@ -12,7 +12,7 @@ tags:
 excerpt_separator:  <!--more-->
 ---
 
-Hello guys untuk membuat project dengan java, alangkah bagusnya jika kita menggunakan builder maven. Tapi jika anda bermasalah dengan proxy itb anda bisa mengakses [link berikut ini](http:/techneandpraxis/filsafat/2018/02/05/Kopi-Jokowi.html). Pertama-tama kita deklarasikan dulu projectnya bernama apa, 
+Hello guys untuk membuat project dengan java, alangkah bagusnya jika kita menggunakan builder maven. Tapi jika anda bermasalah dengan proxy itb anda bisa mengakses [link berikut ini](https:/techneandpraxis/filsafat/2018/02/05/Kopi-Jokowi.html). Pertama-tama kita deklarasikan dulu projectnya bernama apa, 
 
 
 ```bash
