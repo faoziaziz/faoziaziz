@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Telekomunikasi"
+title: "Otonomi dan Kebebasan"
 date: 2018-4-9 01:01:00 +0700
 author: Aziz Amerul Faozi
 comments: true
