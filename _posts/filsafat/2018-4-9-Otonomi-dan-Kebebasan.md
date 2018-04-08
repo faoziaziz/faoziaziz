@@ -18,4 +18,4 @@ Mungkin Jurgen Habermas pernah menggeluti Gadamer dan terkagum pada argumentasin
 
 Akh, mungkin benar apa yang dikatakan oleh Choirul Muttaqin, filsuf kenamaan ITB itu, bahwa untuk hidup bebas dia harus menjadi diri sendiri, dan untuk menjadi diri sendiri dia harus bisa jujur pada diri sendiri. Walaupun mengikuti pendapat CM tadi pada kenaifan pertama menunjukan diri kita masih terkungkung pada pemikiran CM, tapi mungkin sebuah kenaifan pertama merupakan syarat untuk bisa masuk pada tingkat kenaifan berikutnya.<sup>1</sup>
 
-- <sup>1</sup> Riceour
+<sup>1</sup> Riceour
