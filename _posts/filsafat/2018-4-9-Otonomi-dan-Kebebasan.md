@@ -26,7 +26,7 @@ Merdeka sejak dalam pikiran dan kemudian menular ke individu lain, hingga memunc
 
 Enterpreneurship, proses mendesain, memulai, menjalankan sebuah bisnis baru, dan kadang dimulai dari bisnis kecil.<sup>3</sup> Enterpreneurship menjadi sebuah methode untuk mencapai kebebasan dalam bidang Ekonomi, entah kenapa dalam pikiran saya, *"Mungkin ada kaitan antara pikiran otonom dengan membangun bisnis."* Akh, kapitalisme mungkin methode kolonialisme dan imperialisme baru, maka orang yang merasakan penjajahan dengan proses kapitalsime tersebut ingin juga memiliki hak otonom dengan lari dan membangun bisnis sendiri yang bebas dan merdeka. Iyah, bisa jadi enterpreneruship menjadi salah satu methode melawan penjajahan. 
 
-Keputusasaan pada pemikiran yang dibatasi oleh struktur modal dan uang, memberikan kekuatan tersendiri untuk para terjajah untuk keluar dari penjajah dan membentuk otonomi yang baru.
+Keputusasaan pada pemikiran yang dibatasi oleh struktur modal dan uang, memberikan kekuatan tersendiri untuk para terjajah untuk keluar dari penjajah dan membentuk otonomi yang baru. Uang memang tidak selamanya memberikan kita kebebasan untuk memiliki barang tapi uang juga memiliki hak otonomi untuk 
 
 ## Keterangan
 
