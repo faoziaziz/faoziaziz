@@ -26,7 +26,7 @@ Merdeka sejak dalam pikiran dan kemudian menular ke individu lain, hingga memunc
 
 Enterpreneurship, proses mendesain, memulai, menjalankan sebuah bisnis baru, dan kadang dimulai dari bisnis kecil.<sup>3</sup> Enterpreneurship menjadi sebuah methode untuk mencapai kebebasan dalam bidang Ekonomi, entah kenapa dalam pikiran saya, *"Mungkin ada kaitan antara pikiran otonom dengan membangun bisnis."* Akh, kapitalisme mungkin methode kolonialisme dan imperialisme baru, maka orang yang merasakan penjajahan dengan proses kapitalsime tersebut ingin juga memiliki hak otonom dengan lari dan membangun bisnis sendiri yang bebas dan merdeka. Iyah, bisa jadi enterpreneruship menjadi salah satu methode melawan penjajahan. Pikiran mandiri dari sang Enterpreneur ini mungkin mirip seorang pejuang kemerdekaan.
 
-Keputusasaan pada pemikiran yang dibatasi oleh struktur modal dan uang, memberikan kekuatan tersendiri untuk para terjajah untuk keluar dari penjajah dan membentuk otonomi yang baru. Uang memang tidak selamanya memberikan kita kebebasan untuk memiliki barang tapi uang juga memiliki hak otonomi untuk menjajah sang pemegang uang dan membatasi kebebasan sang Individu untuk terarah dalam tindakannya, seperti kecendrungan orang yang memiliki uang yang banyak untuk mengarahakan individu untuk melakukan prilaku khusus, semisal berbelanja barang yang mahal atau pada kecendrungan pemilihan barang yang dinilai mahal maka dia berkualitas, tanpa mengecek feature dan keterbatasan dari yang dia belanjakan tersebut. 
+Keputusasaan pada pemikiran yang dibatasi oleh struktur modal dan uang, memberikan kekuatan tersendiri untuk para terjajah untuk keluar dari penjajah dan membentuk otonomi yang baru. Uang memang tidak selamanya memberikan kita kebebasan untuk memiliki barang tapi uang juga memiliki hak otonomi untuk menjajah sang pemegang uang dan membatasi kebebasan sang Individu untuk terarah dalam tindakannya, seperti kecendrungan orang yang memiliki uang yang banyak untuk mengarahakan individu untuk melakukan prilaku khusus, semisal berbelanja barang yang mahal atau pada kecendrungan pemilihan barang yang dinilai mahal maka dia berkualitas, tanpa mengecek feature dan keterbatasan dari yang dia belanjakan tersebut. <sup>4</sup>
 
 ## Keterangan
 
@@ -35,3 +35,5 @@ Keputusasaan pada pemikiran yang dibatasi oleh struktur modal dan uang, memberik
 <sup>2</sup> Kemerdekaan dari kata Freedom, mungkin berkaitan dengan kebebasan.
 
 <sup>3</sup> Dari wikipedia.
+
+<sup>4</sup> George Simmel. Philosopie der Gelden
