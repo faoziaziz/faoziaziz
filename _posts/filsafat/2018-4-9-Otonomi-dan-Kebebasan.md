@@ -18,8 +18,12 @@ Mungkin Jurgen Habermas pernah menggeluti Gadamer dan terkagum pada argumentasin
 
 Akh, mungkin benar apa yang dikatakan oleh Choirul Muttaqin, filsuf kenamaan ITB itu, bahwa untuk hidup bebas dia harus menjadi diri sendiri, dan untuk menjadi diri sendiri dia harus bisa jujur pada diri sendiri. Walaupun mengikuti pendapat CM tadi pada kenaifan pertama menunjukan diri kita masih terkungkung pada pemikiran CM, tapi mungkin sebuah kenaifan pertama merupakan syarat untuk bisa masuk pada tingkat kenaifan berikutnya.<sup>1</sup> Atau mungkin ungkapanya tentang keterpakasaan dalam agama, *"Aku saja belum menemukan diriku, lalu kenapa kau bisa menemukan diriku."* yang katanya disadur dari Zarathustra bersabda. 
 
+Otonomi, kata yang dulu pernah aku dengan semasa SMP, untuk membedakan dengan sentralisasi. Hak otonomi memang tidak sekedar dilakukan dalam bernegara. Ketika dahulu para pejuang di Indonesia, memperjuangkan kemerdekaan<sup>2</sup>, ternyata dilakukan oleh Jurgen Habermas sendiri untuk keluar dari tradisi pemikiran Gadamer, mungkin mirip dengan keluarnya tradisi kolonialisme penjajahan Belanda maupun Jepang untuk menjadi negara yang merdeka.
+
 
 
 
 
 <sup>1</sup> Riceour
+
+<sup>2</sup> Kemerdekaan dari kata Freedom, mungkin berkaitan dengan kebebasan.
