@@ -22,10 +22,10 @@ Otonomi, kata yang dulu pernah aku dengan semasa SMP, untuk membedakan dengan se
 
 Merdeka sejak dalam pikiran dan kemudian menular ke individu lain, hingga memunculkan pergerakan masive untuk mencapai pada kemerdakaan secara masiv juga. Mungkin itu bisa menjadi pembenaran bahwa kemerdakaan tidak melulu hanya diperoleh individu. Akh, dalam benakku pikiran itu juga mungkin dimulai pada komunikasi antar individu yang menyepakati keseragaman berfikir tersebut. 
 
-Enterpreneurship
+Enterpreneurship, proses mendesain, memulai, menjalankan sebuah bisnis baru, dan kadang dimulai dari bisnis kecil.<sup>3</sup> Enterpreneurship menjadi sebuah methode untuk mencapai kebebasan dalam bidang Ekonomi, entah kenapa dalam pikiran saya, *"Mungkin ada kaitan antara pikiran otonom dengan membangun bisnis."* Akh, kapitalisme mungkin methode kolonialisme dan imperialisme baru, maka orang yang merasakan penjajahan dengan proses kapitalsime tersebut ingin juga memiliki hak otonom dengan lari dan membangun bisnis sendiri yang bebas dan merdeka. Iyah, bisa jadi enterpreneruship menjadi salah satu methode melawan penjajahan. 
 
 ## Keterangan
 
-<sup>1</sup> Riceour
-
+<sup>1</sup> Riceour.
 <sup>2</sup> Kemerdekaan dari kata Freedom, mungkin berkaitan dengan kebebasan.
+<sup>3</sup> Dari wikipedia.
