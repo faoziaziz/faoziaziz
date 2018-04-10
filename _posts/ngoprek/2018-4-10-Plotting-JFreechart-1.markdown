@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Maven Project"
-date: 2018-4-3 04:18:00 +0700
+date: 2018-4-10 19:00:00 +0700
 author: Aziz Amerul Faozi
 comments: true
 categories: 
@@ -9,6 +9,7 @@ categories:
 tags:
 - Maven
 - Java
+- TA
 excerpt_separator:  <!--more-->
 ---
 Kelas ini merupakan bagian dari software TA, plotting dipakai untuk simulasi, look at [JavPlotMan](https://github.com/faoziaziz/JavPlotMan). Terus klick bagian alat dan SimCan
