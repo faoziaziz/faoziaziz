@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Maven Project"
+title: "Plotting JFreeChart 1"
 date: 2018-4-10 19:00:00 +0700
 author: Aziz Amerul Faozi
 comments: true
