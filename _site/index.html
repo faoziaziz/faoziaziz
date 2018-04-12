@@ -312,6 +312,61 @@
   
   <article class="post-body">
     <h2 class="post-title">
+      <a href="/techneandpraxis/2018/04/12/SAR-1.html">
+        SAR 1
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">12 Apr 2018</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/TechneAndPraxis.html">
+          TechneAndPraxis
+        </a>
+      
+    
+  </span>
+</div>
+
+    
+      <p>Oke Guys, kali ini kita akan mencoba untuk memburu MIT berikutnya. Iyah, SAR (Synthetic Aperture Radar) menjadi salah satu kebutuhan di dunia permiliteran. Lalu kenapa kita akan membahas ini untuk memburu MIT, kali ini di Lincoln Laboratory milik MIT dibutuhkan orang yang berpengalaman selama lebih dari 5 tahun untuk menjadi engineer di DoD (Departement of Defense) dari Amerika. Namun, sebenarnya bukan hanya perburuan yang kita lakukan tapi juga untuk menaikkan skill kita di bidang telekomunication engineering juga, walau kita nantinya tidak akan mendapatkan hasil perburuan kita, setidaknya kali ini kita mempelajari hal yang baru di dunia pertelekomunikasian.</p>
+
+<p>SAR, untuk deteksi misil pesawat atau yang lain memanfaatkan efek dari gelombang elektromagnetik untuk mendeteksi. Effek dopler menjadi sangat penting disini, yang jelas lagi array antena akan dimanfaatkan untuk melakukan beam forming dan scanning pada posisi pesawat. Memang karena shift frequensi dari efek dopler akan berpengaruh pada bit yang akan dikirim, hilbert transfrom untuk menganalisa resolusi pada ketepatan posisi jarak ini menjadi sangat signifikan dalam kasus ini. Akh mungkin ini bisa dikaitkan dengan TA saya untuk memulai membuat Signal Processor dalam kerangka komunikasi frequensi selektif, yang nantinya bisa dilanjutkan untuk masuk kedalam sinthetic aperture radar ini, walau kali ini saya masih pada bab awal dalam memahami synthetic aperture radar sehingga saya tidak begitu memiliki gambaran kualitatif dan kuantitatif yang bagus tentang topik ini, sayang nya modulasi yang dipakai sekedar FMCW, dan kali ini OFDM belum nongol untuk bisa dikaitkan dengan TA saya.</p>
+
+<p>Heisenberg inequality menjadi topik yang menarik dari topik Synthetic Aperture Radar ini dan kali ini saya mencoba untuk kembali kepada kuantum Phisics, untuk menganalisa keakuratan antara waktu dan jarak untuk menentukan posisi yang tepat.</p>
+
+<p>Walaupun saya tidak mengerti mengapa fasa digunakan untuk menganalisa pada domain frequensi dan memiliki tingkat kompleksitas pada hardware, setidaknya FFT yang sedang saya rancang untuk menyelesaikan TA akan berguna disini untuk melakukan simplifikasi pada bagian radar ini. Hal yang baru juga saya temukan tentang fungsi ambiguitas yang menggunakan konsep autokorelasi, walaupun saya belum verifikasi apakah hal ini juga terkait dengan konsep yang diajukan pada persamaan Wiener-Kinchine. Tetapi yang jelas saya belajar kembali tentang Costas sinyal dalam pembuatan SAR ini.</p>
+
+<p>Mengingat dalam proses pengolahan sinyal ini menampilkan subsquence dari bit, memang dalam buku ini dia membahas tentang penggunaan Genetic algortimh untuk melakukan methode optimasi. Disini saya juga belajar tentang mutasi non-Gaussian. Wah memang mungkin yang dinamakan Mature kondisi disini adalah methode paling optimal untuk menganalisa bit sequence yang muncul. Dan sekaligus untuk meningkatkan kemampuan GA saya, saya menemukan bahwa bagian utama dari GA yang perlu saya masukkin algoritma adalah operator seleksi, crossover, dan mutasi.</p>
+
+<p>Oke tunggu kelanjutan pembahasan Synthetic Aperture Radar</p>
+
+<h2 id="referensi">Referensi</h2>
+
+<ol>
+  <li>Chen, Baixiao. 2014 .<em>Sysnthetic Impulse and Aperture Radar(SIAR)</em>. Singapore : Wiley</li>
+</ol>
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
+  
+  <article class="post-body">
+    <h2 class="post-title">
       <a href="/techneandpraxis/2018/04/11/React.html">
         React 1
       </a>
@@ -1340,86 +1395,6 @@ git push heroku master
     </ul>
   </li>
 </ol>
-
-    
-
-    
-      
-      
-      
-
-      
-    
-  </article>
-  
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/filsafat/2018/03/24/Telekomunikasi.html">
-        Telekomunikasi
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">24 Mar 2018</span>
-  <span class="post-categories">
-    
-      &bull;
-
-      
-      
-      
-
-      
-        <a href="/category/Filsafat.html">
-          Filsafat
-        </a>
-      
-    
-  </span>
-</div>
-
-    
-      <p>Akh, bukankah Heidegger pernah mengungkapkan bahwa metafisika merupakan proses
-kelupaan tentang ada. Lalu kalau kita membahas telekomunikasi tentang ke-apaan-nya
-mungkin juga salah satu manifestasi kelupaan ke-Ada-an dalam telekomunikasi itu
-sendiri. Lalu mengampa ini dibahas? Iya mungkin cukup menarik untuk orang yang
-ingin melanjutkan di jurusan ini. Sekalian promosi juga sih, (Akhzeeiq).</p>
-
-<p>Oke guys masih bersama saya dalam acara kelupaan akan telekomunikasi atau dalam
-bahasa Heideggerian-nya, <em>Seinsvergessenheit Telekomunikation</em>. Lalu mengapa kita
-lupakan dulu ke-Ada-an tentang telekomunikasi? Oke guys, alasannya cukup simple, yaitu
-untuk mendefinisikan Telekomunikation itu sendiri.</p>
-
-<p>Buat anda yang hidupnya mainstream, dan tidak berkembang, mungkin anda mengira
-elektronika sekedar tentang tegangan atau arus. Akh, buat anda yang kurang hipster
-dari kehidupan mending anda masuk jurusan Elektro atau Informatika saja (Azheeiq
-profokatif). Jadi apa bedanya antara Elektro, Power sama Telekomunikation, mungkin
-harus bikin tabel yah guys biar rada keren.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Diskriminasi</th>
-      <th>Elektro</th>
-      <th>Power</th>
-      <th>Telekomunikation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Power</td>
-      <td>Campuran</td>
-      <td>Tegangan Tinggi</td>
-      <td>Tegangan Rendah</td>
-    </tr>
-    <tr>
-      <td>Frequensi</td>
-      <td>Campuran</td>
-      <td>Frequensi Rendah</td>
-      <td>Frequensi Tinggi</td>
-    </tr>
-  </tbody>
-</table>
-
 
     
 
