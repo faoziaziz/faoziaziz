@@ -8,6 +8,7 @@ categories:
 - Filsafat
 tags:
 - Modus
+excerpt_separator:  <!--more-->
 ---
 Aku tidak begitu punya solusi untuk banyak masalah yang terlalu komplex, tapi setidaknya *"Reductio Ad Absurbdum"* (Mengurangi yang aneh-aneh) akan membantu kita untuk menyelesaikan masalah. Ah, aku bukan sedang mengajari kalian untuk bisa hidup dengan fokus, toh nyatanya banyak hal dalam hidupku sendiri yang keteteran. Tapi mungkin mirip seperti yang dikatakan Pak Samaun Samadikun bahwa *"Devil in Detail"* setiap permasalahan muncul agar kita mampu mendalaminya. Lihatlah mereka banyak orang hebat yang memiliki banyak kecemasan, apakah mungkin tanpa kecemasan akan ada fisika, matematika, engineering atau lainnya. Orang menyadari bahwa mereka perlu menyelesaikan masalah engineering maupun sains hingga negara menjadi cemas dan mendirikan perguruan tinggi, bukankah itu menunjukan betapa cemasnya negara ini untuk bisa mengatasi masalah sains dan engineering hingga perlu membentuk perguruan tinggi bermoto *"In Harmonia Progressio"*. 
 

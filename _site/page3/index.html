@@ -94,6 +94,10 @@
   
 
   
+    
+  
+
+  
 
   
     
@@ -177,6 +181,13 @@
     
       <a class="category-link "
           href="/category/Kacang-Polong.html">Kacang-Polong</a>
+    
+  
+
+  
+    
+      <a class="category-link "
+          href="/category/Puisi.html">Puisi</a>
     
   
 
@@ -321,6 +332,83 @@
 
   
 
+  
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="/techneandpraxis/2018/02/25/Django-Python-lanjutan.html">
+        Django Python lanjutan
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">25 Feb 2018</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/TechneAndPraxis.html">
+          TechneAndPraxis
+        </a>
+      
+    
+  </span>
+</div>
+
+    
+      <p>Oke guys setelah menginstall django admin di <a href="http:/techneandpraxis/2018/02/20/Django.html">Django</a> sekarang kita mencoba untuk memperbaiki file untuk bisa di hosting dengan heroku. Kita buat project-nya dahulu dengan template dari heroku dengan perintah berikut ini, project tersebut saya beri nama faoziaziz.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>django-admin.py startproject <span class="nt">--template</span><span class="o">=</span>https://github.com/heroku/heroku-django-template/archive/master.zip <span class="nt">--name</span><span class="o">=</span>Procfile faoziaziz
+
+</code></pre></div></div>
+<p>lalu masuk kedalam direktory faoziaziz</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>faoziaziz
+</code></pre></div></div>
+
+<p>lalu install pipenv</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pipenv <span class="nb">install</span>
+</code></pre></div></div>
+<p>jangan lupa untuk mengaktifkan virtual environtment supaya pendevelopan python dengan pip bisa berjalan dengan lancar, walaupun secara direktory saya cek sama tetapi run project pip di dalam virtual environtment lebih worthed karena terintegrasi dengan pipenvnye</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">source</span> /home/afaozi/.local/share/virtualenvs/faoziaziz-tlxp7l8x/bin/activate
+</code></pre></div></div>
+<p>kemudian coba kita masuk ke dalam virtual environment</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pipenv shell
+</code></pre></div></div>
+
+<p>kemudian kita coba run servernya dengan perintah</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>heroku <span class="nb">local</span> 
+</code></pre></div></div>
+<p>cek ke dalam webbrowser dengan alamat localhost:5000,</p>
+
+<p>jika anda ingin menguploadnya ke heroku server anda</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>heroku create faoziaziz
+heroku git:remote <span class="nt">-a</span> faoziaziz
+git init <span class="nb">.</span>
+git commit <span class="nt">-m</span> <span class="s2">"Push ke heroku"</span>
+git push heroku master
+</code></pre></div></div>
+
+<p>lalu coba cek ke alamat https://faoziaziz.herokuapp.com, gunakan alamat kesukaan anda untuk bisa dipakai sesuai kebutuhan.</p>
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
   
   <article class="post-body">
     <h2 class="post-title">
@@ -941,66 +1029,6 @@ pip <span class="nb">install</span> <span class="nt">--user</span> pipenv
       <p><strong><em>“Atheis adalah salah satu methode penyucian.”</em></strong> dan <strong><em>“Berfilsafat adalah bagaimana cara kita untuk mati.”</em></strong>, tidak hanya imam Ghozali yang berujar bahwa <strong><em>“Tercelalah orang-orang yang mencela orang yang menyucikan jiwa.”</em></strong> dalam Ikhya Ulumudin, Simone Weil lah yang mengutarakan itu dalam <strong><em>Grace and Gravity</em></strong>.</p>
 
 <p>Mungkin mirip dengan konsep yang diajukan oleh Nietzsche, bahwa <strong><em>Ubermensh merupakan Dynosian dan Apolonian sekaligus.</em></strong>. Sering kita menjalani kehidupan, tapi kok beragam kecemasan tetep muncul padahal kita telah menjalani peribadatan agama dengan baik. Tapi, begitulah kecemasan, yang menampakan diri sebagai penderitaan dan rasa sakit, terkadang kita mengeluh dan bersikap <strong><em>“Membenci Tuhan”</em></strong>(Dalam tanda kutip). Memang seperti itu Tuhan, Dia tidak ingin terlalu mudah untuk disingkap, apalagi dengan jiwa yang penuh dengan kekotoran. Akh, cukup dengan sabun dan air kita membersihkan kotoran dalam tubuh. Lalu, bagaimana membersihkan kotoran dalam jiwa, <strong><em>“Penderitaan dan rasa sakit”</em></strong> menjadi methode penyucian kata para sufi, dan bukankah Nietzsche pernah berujar juga bahwa <strong><em>“Penderitaan adalah proses penyingkapan agar kita mampu memahami kesadaran yang lebih mendalam.”</em></strong> Lihatlah para Busthami, dia rela untuk meninggalkan kekuasaan hanya untuk menjadi seorang gelandangan untuk mampu menerima kesadaran Ilahiah. Memberikan uang kepada orang yang melemparinya dengan kenari, mengemis hanya untuk menyadari bahwa dirinya adalah makhluk paling rendah di dunia hanya untuk menyadari bahwa dirinya bahkan tidak lebih berharga dari sebutir debupun, dan tindakannya bersikap kafir hanya untuk menjaga hatinya tidak beribadah hanya karena pujian dari orang lain.</p>
-
-    
-
-    
-      
-      
-      
-
-      
-    
-  </article>
-  
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/techneandpraxis/2018/02/11/Paho-dan-Java.html">
-        Paho dan Java
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">11 Feb 2018</span>
-  <span class="post-categories">
-    
-      &bull;
-
-      
-      
-      
-
-      
-        <a href="/category/TechneAndPraxis.html">
-          TechneAndPraxis
-        </a>
-      
-    
-  </span>
-</div>
-
-    
-      <p>Oke guys sekarang kita mencoba untuk menaruh server MQTT di heroku, walaupun sepertinya susah untuk mengakses port 1883 dari ITB tapi kita akan coba menggunakan perantara HTTP/HTTPS protokolnya untuk bisa men-subscribe dan post topik dari dashboard swing yang akan kita buat nanti.</p>
-
-<h1 id="arsitekturnya">Arsitekturnya</h1>
-<p><img src="https://raw.githubusercontent.com/faoziaziz/IdiotBGT/master/images/pic1.png" alt="Arsitekturnya" /></p>
-
-<p>mungkin kita akan mencoba JSON untuk bisa dipakai mengakses ke server Moquette di heroku.</p>
-
-<h1 id="progres-sementara">Progres Sementara</h1>
-<p>Untuk sementara kita coba codenya di komputer local.</p>
-
-<h2 id="install">Install</h2>
-<p>Untuk installasi cukup dengan mengeklone kode dan membuildnya dengan maven.</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/faoziaziz/IdiotBGT.git tutLabseni
-<span class="nb">cd </span>tutLabseni/idiotBGT
-mvn <span class="nb">exec</span>:java <span class="nt">-Dexec</span>.mainClass<span class="o">=</span>org.labseni.App
-</code></pre></div></div>
-
-<h1 id="referensi">Referensi</h1>
-<ol>
-  <li><a href="http://www.hascode.com/2016/06/playing-around-with-mqtt-and-java-with-moquette-and-eclipse-paho/">Playing around MQTT</a></li>
-</ol>
-
 
     
 

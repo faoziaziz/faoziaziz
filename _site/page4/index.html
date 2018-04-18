@@ -94,6 +94,10 @@
   
 
   
+    
+  
+
+  
 
   
     
@@ -177,6 +181,13 @@
     
       <a class="category-link "
           href="/category/Kacang-Polong.html">Kacang-Polong</a>
+    
+  
+
+  
+    
+      <a class="category-link "
+          href="/category/Puisi.html">Puisi</a>
     
   
 
@@ -321,6 +332,66 @@
 
   
 
+  
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="/techneandpraxis/2018/02/11/Paho-dan-Java.html">
+        Paho dan Java
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">11 Feb 2018</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/TechneAndPraxis.html">
+          TechneAndPraxis
+        </a>
+      
+    
+  </span>
+</div>
+
+    
+      <p>Oke guys sekarang kita mencoba untuk menaruh server MQTT di heroku, walaupun sepertinya susah untuk mengakses port 1883 dari ITB tapi kita akan coba menggunakan perantara HTTP/HTTPS protokolnya untuk bisa men-subscribe dan post topik dari dashboard swing yang akan kita buat nanti.</p>
+
+<h1 id="arsitekturnya">Arsitekturnya</h1>
+<p><img src="https://raw.githubusercontent.com/faoziaziz/IdiotBGT/master/images/pic1.png" alt="Arsitekturnya" /></p>
+
+<p>mungkin kita akan mencoba JSON untuk bisa dipakai mengakses ke server Moquette di heroku.</p>
+
+<h1 id="progres-sementara">Progres Sementara</h1>
+<p>Untuk sementara kita coba codenya di komputer local.</p>
+
+<h2 id="install">Install</h2>
+<p>Untuk installasi cukup dengan mengeklone kode dan membuildnya dengan maven.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/faoziaziz/IdiotBGT.git tutLabseni
+<span class="nb">cd </span>tutLabseni/idiotBGT
+mvn <span class="nb">exec</span>:java <span class="nt">-Dexec</span>.mainClass<span class="o">=</span>org.labseni.App
+</code></pre></div></div>
+
+<h1 id="referensi">Referensi</h1>
+<ol>
+  <li><a href="http://www.hascode.com/2016/06/playing-around-with-mqtt-and-java-with-moquette-and-eclipse-paho/">Playing around MQTT</a></li>
+</ol>
+
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
   
   <article class="post-body">
     <h2 class="post-title">
@@ -867,48 +938,6 @@ mvn package -Dskiptests
 
       
         <a href="/techneandpraxis/2018/01/26/Moveon-dari-Arm-cortex-m0.html">More &hellip;</a>
-      
-    
-  </article>
-  
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/techneandpraxis/2018/01/24/Micro-dan-FGPA.html">
-        Micro x dan FPGA
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">24 Jan 2018</span>
-  <span class="post-categories">
-    
-      &bull;
-
-      
-      
-      
-
-      
-        <a href="/category/TechneAndPraxis.html">
-          TechneAndPraxis
-        </a>
-      
-    
-  </span>
-</div>
-
-    
-      <p>Untuk komunikasi antara SPI dan Spartan FPGA</p>
-
-
-    
-
-    
-      
-      
-      
-
-      
-        <a href="/techneandpraxis/2018/01/24/Micro-dan-FGPA.html">More &hellip;</a>
       
     
   </article>
