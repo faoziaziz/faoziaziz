@@ -274,7 +274,7 @@ mvn -o tomcat7:run
 ```
 Cek di browser, dengan mengetikan alamat localhost:8080. Oke guys, nanti akan ada tampilan seperti berikut.
 
-[gambar]
+![gambar](https://raw.githubusercontent.com/faoziaziz/springts/master/gambar/springts.png)
 
 Spring merupakan MVC dan reactJS merupakan bagian V dari MVC, jadi code ini nanti kita akan pakai untuk kombinasikan AWS sebagai BackEnd, Spring sebagai Midle End, dan ReactJS sebagai Front-End-nya guys. Biar bisa dapet Huge Recommendation ke SMART Guys.
 
