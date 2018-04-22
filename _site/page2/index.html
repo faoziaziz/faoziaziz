@@ -335,6 +335,165 @@
   
   <article class="post-body">
     <h2 class="post-title">
+      <a href="/techneandpraxis/2018/03/29/DFU-Device-Firmware-Upgrade.html">
+        Device Firmware Upgrade
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">29 Mar 2018</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/TechneAndPraxis.html">
+          TechneAndPraxis
+        </a>
+      
+    
+  </span>
+</div>
+
+    
+      <p>DFU = Device Firmware Upgrade, menjadi salah satu methode untuk mengupload data kedalam firmware. Lalu apa yang dimaksud firmware disini, firmware merupakan software yang di store kedalam perangkat Writable, volatile memory dengan perantara USB. Lalu kenapa dinamai Upgrade, jadi guys itu karena bisa melakukan overwrite pada perangkat firmware tersebut. Methode ini merupakan cara untuk mendownload (mengirim informasi ke perangkat dari host), dan mengupload (dari perangkat menuju host).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>bmRequestType</th>
+      <th>bRequest</th>
+      <th>wValue</th>
+      <th>wIndex</th>
+      <th>wLength</th>
+      <th>Data</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>00100001b</td>
+      <td>DFU_DETACH</td>
+      <td>wTimeout</td>
+      <td>Interface</td>
+      <td>Zero</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>00100001b</td>
+      <td>DFU_DNLOAD</td>
+      <td>wBlockNum</td>
+      <td>Interface</td>
+      <td>Length</td>
+      <td>Firmware</td>
+    </tr>
+    <tr>
+      <td>10100001b</td>
+      <td>DFU_UPLOAD</td>
+      <td>Zero</td>
+      <td>Interface</td>
+      <td>Length</td>
+      <td>Firmware</td>
+    </tr>
+    <tr>
+      <td>10100001b</td>
+      <td>DFU_GETSTATUS</td>
+      <td>Zero</td>
+      <td>Interface</td>
+      <td>6</td>
+      <td>Status</td>
+    </tr>
+    <tr>
+      <td>00100001b</td>
+      <td>DFU_CLRSTATUS</td>
+      <td>Zero</td>
+      <td>Interface</td>
+      <td>Zero</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>10100001b</td>
+      <td>DFU_GETSTATE</td>
+      <td>Zero</td>
+      <td>Interface</td>
+      <td>1</td>
+      <td>Status</td>
+    </tr>
+    <tr>
+      <td>00100001b</td>
+      <td>DFU_ABORT</td>
+      <td>Zero</td>
+      <td>Interface</td>
+      <td>Zero</td>
+      <td>None</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Diatas adalah table DFU Class Spesific Request</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>bRequest</td>
+      <td>Value</td>
+      <td>Protocol</td>
+    </tr>
+    <tr>
+      <td>DFU_DETACH</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>DFU_DNLOAD</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>DFU_UPLOAD</td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>DFU_GETSTATUS</td>
+      <td>3</td>
+      <td>1*, 2</td>
+    </tr>
+    <tr>
+      <td>DFU_CLRSTATUS</td>
+      <td>4</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>DFU_GETSTATUE</td>
+      <td>5</td>
+      <td>1*,2</td>
+    </tr>
+    <tr>
+      <td>DFU_ABORT</td>
+      <td>6</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>* artinya optional</p>
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
+  
+  <article class="post-body">
+    <h2 class="post-title">
       <a href="/bahasa/2018/03/24/Prends.html">
         Prens
       </a>
@@ -986,90 +1145,6 @@ harus bikin tabel yah guys biar rada keren.</p>
   </li>
 </ol>
 
-
-    
-
-    
-      
-      
-      
-
-      
-    
-  </article>
-  
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/bahasa/2018/02/26/Souvenirs-de-vacances.html">
-        Souvenir de vacances
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">26 Feb 2018</span>
-  <span class="post-categories">
-    
-      &bull;
-
-      
-      
-      
-
-      
-        <a href="/category/Bahasa.html">
-          Bahasa
-        </a>
-      
-    
-  </span>
-</div>
-
-    
-      <p>Mencoba melanjutkan bahasa prancis bab ke 15 bukunnya Jean Paul Vallete.</p>
-
-<h3 id="subbab-5">Subbab 5</h3>
-<p>À la mer ou à la montagne?</p>
-<ol>
-  <li>Élise a fait un voyage au Colorado.
-    <ul>
-      <li>Elle est allée à la montagne.</li>
-    </ul>
-  </li>
-  <li>Vous avez nagé dans l’océan Atlantique.
-    <ul>
-      <li>Vous êtes allées à la mer.</li>
-    </ul>
-  </li>
-  <li>Tu as passé une semaine sur la Riviera.
-    <ul>
-      <li>Je suis allée à la mer.</li>
-    </ul>
-  </li>
-  <li>Nous avons photographié le Mont Blanc.
-    <ul>
-      <li>Nous sommes allées à la montagne.</li>
-    </ul>
-  </li>
-  <li>Ma copine a fait du parapente (paragliding).
-    <ul>
-      <li>Elle a allée à la montagne.</li>
-    </ul>
-  </li>
-  <li>Charlotte et Élodie ont passé les vacances à Tahiti.
-    <ul>
-      <li>Elles allées à la mer.</li>
-    </ul>
-  </li>
-  <li>J’ai fait du VTT dans les Alpes.
-    <ul>
-      <li>Tu es allée à la montagne.</li>
-    </ul>
-  </li>
-  <li>Matteo a visité le Népal.
-    <ul>
-      <li>Il est allée à la montagne.</li>
-    </ul>
-  </li>
-</ol>
 
     
 

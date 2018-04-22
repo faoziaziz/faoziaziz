@@ -1,5 +1,3 @@
-# Link Site
+# I am Sory
 
-[CBGL](https://labseni.herokuapp.com)
-
-ASssek
+Maaf sering merepotkan
