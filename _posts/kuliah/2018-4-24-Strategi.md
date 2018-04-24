@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Strategi"
-date: 2018-4-242 16:54:00 +0700
+date: 2018-4-24 16:54:00 +0700
 author: Aziz Amerul Faozi
 comments: true
 categories: 
