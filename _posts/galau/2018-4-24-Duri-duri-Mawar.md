@@ -12,16 +12,26 @@ excerpt_separator:  <!--more-->
 ---
 
 Siang,
+
 Dengan mawar, dalam hujan
+
 Dalam awan gelap.
+
 Dia bersinar, merah merekah.
+
 Menggairahkan.
 
 Dia disana tapi tak mampu kudekati.
+
 Terlalu banyak kawat berduri.
+
 Tapi tanpa kawat itu,
+
 mawar memang berduri.
 
 Akhirnya, ada yang tidak tersampaikan,
+
 hingga menyadari,
+
 Menikmati keindahan membutuhkan kesopanan.
+
