@@ -158,7 +158,7 @@ heroku git:remote -a lontongtahuisi
 git push heroku master
 ```
 
-sekarang coba masuk ke https://lontongtahuisi.herokuapp.com/crot maka akan muncul tampilan seperti localhost:8080/crot anda
+sekarang coba masuk ke [LontongTI](https://lontongtahuisi.herokuapp.com/crot) maka akan muncul tampilan seperti localhost:8080/crot anda
 
 # Credit
 
