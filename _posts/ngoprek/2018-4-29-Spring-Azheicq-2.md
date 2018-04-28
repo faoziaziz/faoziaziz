@@ -95,6 +95,30 @@ Oke guys sekarang masuk ke memburu MIT episode 5 kali ini kita akan membuat file
                 </configuration>
             </plugin>
 
+            <!-- bagian ini saya buat untuk bisa di deploy tanpa harus menginstall server tomcat di localhost atau menginstall plugin deploy cli di heroku-->
+            <plugin>
+            
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-dependency-plugin</artifactId>
+            <version>3.0.2</version>
+            <executions>
+                <execution>
+                    <phase>package</phase>
+                    <goals><goal>copy</goal></goals>
+                    <configuration>
+                        <artifactItems>
+                            <artifactItem>
+                                <groupId>com.github.jsimone</groupId>
+                                <artifactId>webapp-runner</artifactId>
+                                <version>8.5.27.0</version>
+                                <destFileName>webapp-runner.jar</destFileName>
+                            </artifactItem>
+                        </artifactItems>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
+
 
         </plugins>
     </build>
