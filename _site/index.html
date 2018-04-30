@@ -353,6 +353,311 @@
   
   <article class="post-body">
     <h2 class="post-title">
+      <a href="/puisi/2018/04/29/Cemas.html">
+        Cemas
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">29 Apr 2018</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/Puisi.html">
+          Puisi
+        </a>
+      
+    
+  </span>
+</div>
+
+    
+      <p>Puluhan buku ku baca,</p>
+
+<p>Ratusan paper ku baca,</p>
+
+<p>Walaupun tak ada pergerakan dalam TA-ku.</p>
+
+<p>Seperti halnya,</p>
+
+<p>aku yang bertemu dengan mu saat itu.</p>
+
+<p>Engkau tahu,</p>
+
+<p>bahwa pupil mataku bulat,</p>
+
+<p>walau tak seindah matamu,</p>
+
+<p>yang ingin ku congkel.</p>
+
+<p>Apakah engkau Medusa?</p>
+
+<p>Yang,</p>
+
+<p>membuat diriku membatu</p>
+
+<p>ketika melihat matamu.</p>
+
+<p>Aku sempat bertanya pada diriku.</p>
+
+<p>Apa dosa yang pernah kau buat?</p>
+
+<p>Hingga dirimu diturunkan kedunia.</p>
+
+<p>Atau dirimu sudah bosan disurga,</p>
+
+<p>bersaing dengan bidadari cantik disurga?</p>
+
+<p>Setidakknya aku masih ragu,</p>
+
+<p>bahwa kau manusia.</p>
+
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
+  
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="/techneandpraxis/2018/04/29/Spring-Azheicq-2.html">
+        Spring Azheicq 2 : Membuat War
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">29 Apr 2018</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/TechneAndPraxis.html">
+          TechneAndPraxis
+        </a>
+      
+    
+  </span>
+</div>
+
+    
+      <p>Oke guys sekarang masuk ke memburu MIT episode 5 kali ini kita akan membuat file war agar lebih packageable. Untuk itu kita edit bagian pom.xml pada <a href="https://faoziaziz.herokuapp.com/techneandpraxis/2018/04/21/Spring-Azheicq.html">Azheicq 1</a> menjadi seperti ini. Jangan lupa yang diedit cuma bagian buildnya sajah yah guys.</p>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;project</span> <span class="na">xmlns=</span><span class="s">"http://maven.apache.org/POM/4.0.0"</span> <span class="na">xmlns:xsi=</span><span class="s">"http://www.w3.org/2001/XMLSchema-instance"</span>
+  <span class="na">xsi:schemaLocation=</span><span class="s">"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;modelVersion&gt;</span>4.0.0<span class="nt">&lt;/modelVersion&gt;</span>
+  <span class="nt">&lt;groupId&gt;</span>org.labseni<span class="nt">&lt;/groupId&gt;</span>
+  <span class="nt">&lt;artifactId&gt;</span>SpringMITcode<span class="nt">&lt;/artifactId&gt;</span>
+  <span class="nt">&lt;packaging&gt;</span>war<span class="nt">&lt;/packaging&gt;</span>
+  <span class="nt">&lt;version&gt;</span>1.0-PERCOBAAN<span class="nt">&lt;/version&gt;</span>
+  <span class="nt">&lt;name&gt;</span>SpringMITcode<span class="nt">&lt;/name&gt;</span>
+  
+
+  <span class="nt">&lt;parent&gt;</span>
+     <span class="nt">&lt;groupId&gt;</span>org.springframework.boot<span class="nt">&lt;/groupId&gt;</span>
+     <span class="nt">&lt;artifactId&gt;</span>spring-boot-starter-parent<span class="nt">&lt;/artifactId&gt;</span>
+     <span class="nt">&lt;version&gt;</span>2.0.1.RELEASE<span class="nt">&lt;/version&gt;</span>
+  <span class="nt">&lt;/parent&gt;</span>
+
+  <span class="nt">&lt;properties&gt;</span>
+    <span class="nt">&lt;java.version&gt;</span>1.8<span class="nt">&lt;/java.version&gt;</span>
+  <span class="nt">&lt;/properties&gt;</span>
+
+  <span class="nt">&lt;dependencies&gt;</span>
+    <span class="nt">&lt;dependency&gt;</span>
+      <span class="nt">&lt;groupId&gt;</span>org.springframework.boot<span class="nt">&lt;/groupId&gt;</span>
+      <span class="nt">&lt;artifactId&gt;</span>spring-boot-starter-web<span class="nt">&lt;/artifactId&gt;</span>
+    <span class="nt">&lt;/dependency&gt;</span>
+
+    <span class="nt">&lt;dependency&gt;</span>
+      <span class="nt">&lt;groupId&gt;</span>javax.servlet<span class="nt">&lt;/groupId&gt;</span>
+      <span class="nt">&lt;artifactId&gt;</span>javax.servlet-api<span class="nt">&lt;/artifactId&gt;</span>
+      <span class="nt">&lt;version&gt;</span>3.1.0<span class="nt">&lt;/version&gt;</span>
+      <span class="nt">&lt;scope&gt;</span>provided<span class="nt">&lt;/scope&gt;</span>
+    <span class="nt">&lt;/dependency&gt;</span>
+
+    <span class="nt">&lt;dependency&gt;</span>
+      <span class="nt">&lt;groupId&gt;</span>org.springframework<span class="nt">&lt;/groupId&gt;</span>
+      <span class="nt">&lt;artifactId&gt;</span>spring-webmvc<span class="nt">&lt;/artifactId&gt;</span>
+      <span class="nt">&lt;version&gt;</span>4.3.0.RELEASE<span class="nt">&lt;/version&gt;</span>
+      <span class="nt">&lt;scope&gt;</span>compile<span class="nt">&lt;/scope&gt;</span>
+    <span class="nt">&lt;/dependency&gt;</span>
+
+    <span class="nt">&lt;dependency&gt;</span>
+        <span class="nt">&lt;groupId&gt;</span>jstl<span class="nt">&lt;/groupId&gt;</span>
+        <span class="nt">&lt;artifactId&gt;</span>jstl<span class="nt">&lt;/artifactId&gt;</span>
+        <span class="nt">&lt;version&gt;</span>1.2<span class="nt">&lt;/version&gt;</span>
+        <span class="nt">&lt;scope&gt;</span>compile<span class="nt">&lt;/scope&gt;</span>
+    <span class="nt">&lt;/dependency&gt;</span>
+
+    <span class="nt">&lt;dependency&gt;</span>
+      <span class="nt">&lt;groupId&gt;</span>junit<span class="nt">&lt;/groupId&gt;</span>
+      <span class="nt">&lt;artifactId&gt;</span>junit<span class="nt">&lt;/artifactId&gt;</span>
+      <span class="nt">&lt;version&gt;</span>3.8.1<span class="nt">&lt;/version&gt;</span>
+      <span class="nt">&lt;scope&gt;</span>test<span class="nt">&lt;/scope&gt;</span>
+    <span class="nt">&lt;/dependency&gt;</span>
+  <span class="nt">&lt;/dependencies&gt;</span>
+
+  <span class="nt">&lt;build&gt;</span>
+
+  		<span class="c">&lt;!-- yang diedit bagian build doang yah guys--&gt;</span>
+         <span class="nt">&lt;plugins&gt;</span>
+            <span class="nt">&lt;plugin&gt;</span>
+                <span class="nt">&lt;groupId&gt;</span>org.apache.maven.plugins<span class="nt">&lt;/groupId&gt;</span>
+                <span class="nt">&lt;artifactId&gt;</span>maven-compiler-plugin<span class="nt">&lt;/artifactId&gt;</span>
+                <span class="nt">&lt;version&gt;</span>2.3.2<span class="nt">&lt;/version&gt;</span>
+                <span class="nt">&lt;configuration&gt;</span>
+                    <span class="nt">&lt;source&gt;</span>1.6<span class="nt">&lt;/source&gt;</span>
+                    <span class="nt">&lt;target&gt;</span>1.6<span class="nt">&lt;/target&gt;</span>
+                <span class="nt">&lt;/configuration&gt;</span>
+            <span class="nt">&lt;/plugin&gt;</span> 
+            
+          
+            <span class="nt">&lt;plugin&gt;</span>
+                <span class="nt">&lt;groupId&gt;</span>org.apache.maven.plugins<span class="nt">&lt;/groupId&gt;</span>
+                <span class="nt">&lt;artifactId&gt;</span>maven-war-plugin<span class="nt">&lt;/artifactId&gt;</span>
+                <span class="nt">&lt;configuration&gt;</span>
+                  <span class="nt">&lt;failOnMissingWebXml&gt;</span>false<span class="nt">&lt;/failOnMissingWebXml&gt;</span>
+                <span class="nt">&lt;/configuration&gt;</span>
+            <span class="nt">&lt;/plugin&gt;</span>
+
+            <span class="c">&lt;!-- bagian ini saya buat untuk bisa di deploy tanpa harus menginstall server tomcat di localhost atau menginstall plugin deploy cli di heroku--&gt;</span>
+            <span class="nt">&lt;plugin&gt;</span>
+            
+            <span class="nt">&lt;groupId&gt;</span>org.apache.maven.plugins<span class="nt">&lt;/groupId&gt;</span>
+            <span class="nt">&lt;artifactId&gt;</span>maven-dependency-plugin<span class="nt">&lt;/artifactId&gt;</span>
+            <span class="nt">&lt;version&gt;</span>3.0.2<span class="nt">&lt;/version&gt;</span>
+            <span class="nt">&lt;executions&gt;</span>
+                <span class="nt">&lt;execution&gt;</span>
+                    <span class="nt">&lt;phase&gt;</span>package<span class="nt">&lt;/phase&gt;</span>
+                    <span class="nt">&lt;goals&gt;&lt;goal&gt;</span>copy<span class="nt">&lt;/goal&gt;&lt;/goals&gt;</span>
+                    <span class="nt">&lt;configuration&gt;</span>
+                        <span class="nt">&lt;artifactItems&gt;</span>
+                            <span class="nt">&lt;artifactItem&gt;</span>
+                                <span class="nt">&lt;groupId&gt;</span>com.github.jsimone<span class="nt">&lt;/groupId&gt;</span>
+                                <span class="nt">&lt;artifactId&gt;</span>webapp-runner<span class="nt">&lt;/artifactId&gt;</span>
+                                <span class="nt">&lt;version&gt;</span>8.5.27.0<span class="nt">&lt;/version&gt;</span>
+                                <span class="nt">&lt;destFileName&gt;</span>webapp-runner.jar<span class="nt">&lt;/destFileName&gt;</span>
+                            <span class="nt">&lt;/artifactItem&gt;</span>
+                        <span class="nt">&lt;/artifactItems&gt;</span>
+                    <span class="nt">&lt;/configuration&gt;</span>
+                <span class="nt">&lt;/execution&gt;</span>
+            <span class="nt">&lt;/executions&gt;</span>
+        <span class="nt">&lt;/plugin&gt;</span>
+
+
+        <span class="nt">&lt;/plugins&gt;</span>
+    <span class="nt">&lt;/build&gt;</span>
+<span class="nt">&lt;/project&gt;</span>
+
+
+</code></pre></div></div>
+
+<p>setelah itu kembali pada build dengan perintah</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mvn package
+</code></pre></div></div>
+
+<p>nanti dalam direktory target akan muncul file war-nya. Dengan file war itu kita bisa run dalam tomcat atau heroku.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>java <span class="nt">-jar</span> target/dependency/webapp-runner.jar target/SpringMITcode-1.0-PERCOBAAN.war
+</code></pre></div></div>
+
+<p>lalu cek di dalam localhost:8080/crot anda.</p>
+
+<p>Untuk yang ingin deploy di heroku, buat procfile dengan nama Procfile dengan isinya sebagai berikut</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>web: java <span class="nv">$JAVA_OPTS</span> <span class="nt">-jar</span> target/dependency/webapp-runner.jar <span class="nt">--port</span> <span class="nv">$PORT</span> target/SpringMITcode-1.0-PERCOBAAN.war
+</code></pre></div></div>
+
+<p>Misalkan anda ingin memberi nama domainnya lontongtahuisi</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>heroku create lontongtahuisi
+git init 
+git add <span class="nb">.</span>
+git commit <span class="nt">-m</span> <span class="s2">"Commit pertama"</span>
+heroku git:remote <span class="nt">-a</span> lontongtahuisi
+git push heroku master
+</code></pre></div></div>
+
+<p>sekarang coba masuk ke <a href="https://lontongtahuisi.herokuapp.com/crot">LontongTI</a> maka akan muncul tampilan seperti localhost:8080/crot anda</p>
+
+<h1 id="credit">Credit</h1>
+
+<ol>
+  <li>Agung Setiawan. 2013. <a href="https://agung-setiawan.com/cara-gampang-deploy-war-ke-tomcat-windows/">Cara jalankan war dengan Tomcat</a>. Diakses tanggal 29 April 2018 jam 03.47</li>
+  <li>Repo <a href="https://github.com/faoziaziz/lontongtahuisi">Lontong Tahu Isi</a></li>
+</ol>
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
+  
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="/techneandpraxis/2018/04/28/RTOS-1.html">
+        RTOS 1
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">28 Apr 2018</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/TechneAndPraxis.html">
+          TechneAndPraxis
+        </a>
+      
+    
+  </span>
+</div>
+
+    
+      <p>Oke guys setelah mengalami kegagalan di <a href="https://faoziaziz.herokuapp.com/hobby/techneandpraxis/2018/04/27/SAR-2.html">SAR 2</a>, untuk installasi simulavr, sepertinya ada yang kurang untuk membuild code simulavr, jadi saya install libbfd dengan perintah berikut</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>dnf <span class="nt">-y</span> <span class="nb">install </span>binutils-devel<span class="k">*</span>
+</code></pre></div></div>
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
+  
+  <article class="post-body">
+    <h2 class="post-title">
       <a href="/curhat/2018/04/28/Masa-Depan-2.html">
         Masa Depan 2
       </a>
@@ -997,211 +1302,6 @@ make <span class="nb">install</span>
   <li>Github : <a href="https://github.com/faoziaziz/SpringAzheicq">SpringAzheicq</a></li>
 </ol>
 
-
-    
-
-    
-      
-      
-      
-
-      
-    
-  </article>
-  
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/puisi/2018/04/18/Trauma.html">
-        Trauma
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">18 Apr 2018</span>
-  <span class="post-categories">
-    
-      &bull;
-
-      
-      
-      
-
-      
-        <a href="/category/Puisi.html">
-          Puisi
-        </a>
-      
-    
-  </span>
-</div>
-
-    
-      <p>DERAI DERAI CEMARA</p>
-
-<p>Cemara menderai sampai jauh</p>
-
-<p>terasa hari akan jadi malam</p>
-
-<p>ada beberapa dahan di tingkap merapuh</p>
-
-<p>dipukul angin yang terpendam</p>
-
-<p>Aku sekarang orangnya bisa tahan</p>
-
-<p>sudah berapa waktu bukan kanak lagi</p>
-
-<p>tapi dulu memang ada suatu bahan</p>
-
-<p>yang bukan dasar perhitungan kini</p>
-
-<p>Hidup hanya menunda kekalahan</p>
-
-<p>tambah terasing dari cinta sekolah rendah</p>
-
-<p>dan tahu, ada yang tetap tidak terucapkan</p>
-
-<p>sebelum pada akhirnya kita menyerah</p>
-
-<p>1949</p>
-
-<p>Karya Chairil Anwar</p>
-
-    
-
-    
-      
-      
-      
-
-      
-    
-  </article>
-  
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/techneandpraxis/2018/04/12/SAR-1.html">
-        SAR 1
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">12 Apr 2018</span>
-  <span class="post-categories">
-    
-      &bull;
-
-      
-      
-      
-
-      
-        <a href="/category/TechneAndPraxis.html">
-          TechneAndPraxis
-        </a>
-      
-    
-  </span>
-</div>
-
-    
-      <p>Oke Guys, kali ini kita akan mencoba untuk memburu MIT berikutnya. Iyah, SAR (Synthetic Aperture Radar) menjadi salah satu kebutuhan di dunia permiliteran. Lalu kenapa kita akan membahas ini untuk memburu MIT, kali ini di Lincoln Laboratory milik MIT dibutuhkan orang yang berpengalaman selama lebih dari 5 tahun untuk menjadi engineer di DoD (Departement of Defense) dari Amerika. Namun, sebenarnya bukan hanya perburuan yang kita lakukan tapi juga untuk menaikkan skill kita di bidang telekomunication engineering juga, walau kita nantinya tidak akan mendapatkan hasil perburuan kita, setidaknya kali ini kita mempelajari hal yang baru di dunia pertelekomunikasian.</p>
-
-<p>SAR, untuk deteksi misil pesawat atau yang lain memanfaatkan efek dari gelombang elektromagnetik untuk mendeteksi. Effek dopler menjadi sangat penting disini, yang jelas lagi array antena akan dimanfaatkan untuk melakukan beam forming dan scanning pada posisi pesawat. Memang karena shift frequensi dari efek dopler akan berpengaruh pada bit yang akan dikirim, hilbert transfrom untuk menganalisa resolusi pada ketepatan posisi jarak ini menjadi sangat signifikan dalam kasus ini. Akh mungkin ini bisa dikaitkan dengan TA saya untuk memulai membuat Signal Processor dalam kerangka komunikasi frequensi selektif, yang nantinya bisa dilanjutkan untuk masuk kedalam sinthetic aperture radar ini, walau kali ini saya masih pada bab awal dalam memahami synthetic aperture radar sehingga saya tidak begitu memiliki gambaran kualitatif dan kuantitatif yang bagus tentang topik ini, sayang nya modulasi yang dipakai sekedar FMCW, dan kali ini OFDM belum nongol untuk bisa dikaitkan dengan TA saya.</p>
-
-<p>Heisenberg inequality menjadi topik yang menarik dari topik Synthetic Aperture Radar ini dan kali ini saya mencoba untuk kembali kepada kuantum Phisics, untuk menganalisa keakuratan antara waktu dan jarak untuk menentukan posisi yang tepat.</p>
-
-<p>Walaupun saya tidak mengerti mengapa fasa digunakan untuk menganalisa pada domain frequensi dan memiliki tingkat kompleksitas pada hardware, setidaknya FFT yang sedang saya rancang untuk menyelesaikan TA akan berguna disini untuk melakukan simplifikasi pada bagian radar ini. Hal yang baru juga saya temukan tentang fungsi ambiguitas yang menggunakan konsep autokorelasi, walaupun saya belum verifikasi apakah hal ini juga terkait dengan konsep yang diajukan pada persamaan Wiener-Kinchine. Tetapi yang jelas saya belajar kembali tentang Costas sinyal dalam pembuatan SAR ini.</p>
-
-<p>Mengingat dalam proses pengolahan sinyal ini menampilkan subsquence dari bit, memang dalam buku ini dia membahas tentang penggunaan Genetic algortimh untuk melakukan methode optimasi. Disini saya juga belajar tentang mutasi non-Gaussian. Wah memang mungkin yang dinamakan Mature kondisi disini adalah methode paling optimal untuk menganalisa bit sequence yang muncul. Dan sekaligus untuk meningkatkan kemampuan GA saya, saya menemukan bahwa bagian utama dari GA yang perlu saya masukkin algoritma adalah operator seleksi, crossover, dan mutasi.</p>
-
-<p>Oke tunggu kelanjutan pembahasan Synthetic Aperture Radar</p>
-
-<h2 id="referensi">Referensi</h2>
-
-<ol>
-  <li>Chen, Baixiao. 2014 .<em>Sysnthetic Impulse and Aperture Radar(SIAR)</em>. Singapore : Wiley</li>
-</ol>
-
-    
-
-    
-      
-      
-      
-
-      
-    
-  </article>
-  
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/techneandpraxis/2018/04/11/React.html">
-        React 1
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">11 Apr 2018</span>
-  <span class="post-categories">
-    
-      &bull;
-
-      
-      
-      
-
-      
-        <a href="/category/TechneAndPraxis.html">
-          TechneAndPraxis
-        </a>
-      
-    
-  </span>
-</div>
-
-    
-      <p>Buat anda yang sedang memburu MIT, ada bagian jobdesk yang bisa menjadi jalur kesana, yaitu SMART (Singapore MIT Alliance Research and Technologi), dan bagian jobdesk itu menjadi developer, dimana disana ada Huge Recommendation jika anda memiliki kemampuan di React, Java, dan AWS. Untuk itu kali ini cukup menarik untuk membahas React.</p>
-
-<p>React membutuhkan nodejs, kalau anda menggunakan Fedora 27 cukup dengan menginstall</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>dnf <span class="nb">install </span>nodejs
-</code></pre></div></div>
-
-<p>tapi terkadang mengalami error, jadi anda bisa mendownload file binarynya dan setting path dalam ~/.bashrc.</p>
-
-<p>Kali ini saya akan menggunakan heroku karena aws membutuhkan kartu kredit dalam pembuatannya. Yang jelas pertama kali kita coba install react web generator dengan menggunakan npm dari nodejs dengan perintah berikut.</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install</span> <span class="nt">-g</span> create-react-app
-</code></pre></div></div>
-
-<p>setelah berhasil kita akan mencoba untuk membuat sebuah aplikasi bernama my-app, hati hati dengan proxy jika anda menginstallnya melalui hotspot di ITB</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>create-react-app my-app
-</code></pre></div></div>
-
-<p>lalu inisiasi git, yang sebelumnya masuk ke direktory my-app</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>my-app
-git init
-</code></pre></div></div>
-<p>masukkan code untuk bisa diakses ke heroku dengan perintah berikut</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>heroku create <span class="nt">-b</span> https://github.com/mars/create-react-app-buildpack.git
-</code></pre></div></div>
-<p>kemudian commit dan push</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add <span class="nb">.</span>
-git commit <span class="nt">-m</span> <span class="s2">"Mengejar MIT"</span>
-git push heroku master
-</code></pre></div></div>
-<p>dan open dengan perintah bash, yang nantinya akan mengaktifkan browser menuju web-app yang anda buat</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>heroku open
-</code></pre></div></div>
-<p>selanjutnya silahkan anda cari literasi sendiri untuk menaikkan kemampuan anda di react.</p>
-
-<h2 id="referensi">Referensi</h2>
-
-<ol>
-  <li></li>
-</ol>
 
     
 

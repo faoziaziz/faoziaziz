@@ -616,7 +616,8 @@ body {
     #sidebar a:hover.icon, #sidebar a:focus.icon {
       text-decoration: none; }
   #sidebar a.active {
-    font-weight: bold; }
+    font-weight: bold;
+    background-color: #a0a0a0; }
 
 #sidebar nav {
   display: flex; }

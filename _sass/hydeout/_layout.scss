@@ -230,7 +230,9 @@ body {
   }
 
   &.active {
+    
     font-weight: bold;
+    background-color: lighten($sidebar-bg-color, 50%);
   }
 }
 
