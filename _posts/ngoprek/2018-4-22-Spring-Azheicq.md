@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spring Azheicq 1"
-date: 2018-4-22 06:54:00 +0700
+date: 2018-4-22 6:54:00 +0700
 author: Aziz Amerul Faozi
 comments: true
 categories: 
