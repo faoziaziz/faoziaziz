@@ -1,6 +1,6 @@
 Curriculum Vitae
 
-Aziz Faozi
+# Aziz Faozi
 Gang Sawo, Depok | +628112134212 | rahvanafaozi@gmail.com | https://github.com/faoziaziz
 
 PERSONAL SUMMARY
