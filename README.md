@@ -55,6 +55,12 @@ Repair Airport Equiment : Lavactory Truct (December 2023)
 Serenity Hardware Design (October 2024)
 - Desain audio player for ESP32-S3 for treatment CVD(cerebral vasicular disease). Detect the heartbeat.
 
+Design Sensor for Railways (April 2023) 
+- Design sensor for railway movement detection using ESP32, mqtt, and thingsboard. Also install Kafka, cassandra. (for friend thesis).
+
+Genetics Algoritm for Finding best Path of Water Pipe (September 2023)
+- Make program for finding best path for water pipe configuration.
+
 CERTIFICATIONS AND ACHIEVEMENTS
 -------------------------------------------------------------------------------
 - CASN Selection: SKD Score 392 (2024)  
